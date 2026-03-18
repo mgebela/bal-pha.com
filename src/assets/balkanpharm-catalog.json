@@ -1,0 +1,2568 @@
+{
+  "generatedAt": "2026-02-27T18:31:13.541Z",
+  "source": "https://balkanpharm.hr",
+  "categories": [
+    {
+      "handle": "cbd-cvjetovi",
+      "title": "Cvjetovi",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/collections/cvijet_bijela.jpg?v=1648753483",
+      "productsCount": 15
+    },
+    {
+      "handle": "frulice",
+      "title": "Frulice",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/collections/xy_15.png?v=1705172040",
+      "productsCount": 5
+    },
+    {
+      "handle": "moonrocks",
+      "title": "Moonrocks",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/collections/MOONROCKS_slika_collection.jpg?v=1649676502",
+      "productsCount": 5
+    },
+    {
+      "handle": "cbd-cajevi",
+      "title": "Čajevi",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/collections/caj_bijela.jpg?v=1648756025",
+      "productsCount": 9
+    },
+    {
+      "handle": "cbd-ulje",
+      "title": "CBD Ulje",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/collections/za_shopify.jpg?v=1681476418",
+      "productsCount": 5
+    },
+    {
+      "handle": "kreme-protiv-bolova",
+      "title": "Ostalo",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/collections/Untitled_design.png?v=1699903457",
+      "productsCount": 3
+    },
+    {
+      "handle": "setovi",
+      "title": "Setovi",
+      "imageUrl": null,
+      "productsCount": 4
+    },
+    {
+      "handle": "dodaci-prehrani",
+      "title": "Food suplements",
+      "imageUrl": null,
+      "productsCount": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "balkan-hashis",
+      "shopifyId": "14766033928540",
+      "title": "BALKAN HASHIS",
+      "handle": "balkan-hashis",
+      "url": "https://balkanpharm.hr/products/balkan-hashis",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Otkrijte potpuno novu razinu izvrsnosti CBD-a s našim prvim hrvatskim CBD HASHOM- BALKAN Hashom.\nVrhunski koncentrat koji objedinjuje drevni zanat pravljenja hashisa s čistim bogatim naslijeđem vrhunske hrvatske konoplje. Ubran iz najfinije konoplje uzgojene kod nas u Hrvatskoj, i napravljen od stručne ruke ekipe entuzijasta Balkanpharma.  BALKAN Hash je izrađen od posebne sorte crnih cvijetova i predstavlja savršen spoj moći prirode i majstorske izrade.\nCBD hash je koncentrirani oblik kanabidiola (CBD) napravljen od smolastih trihoma biljke konoplje. To je tradicionalni proizvod od kanabisa koji se koristi stoljećima, ali s modernim prizvukom. CBD hash nastaje pažljivim skupljanjem smolastih žlijezda (trihoma) iz biljke konoplje i zatim njihovim sabijanjem u gusti, ljepljivi blok ili grumen. Ovaj proizvod je obično snažniji od običnog CBD cvijeta zbog svoje koncentrirane prirode, jer sadrži veće razine CBD-a.\nBALKAN HASHIS dolazi u pakiranju od 2g.\nCBD 60%\nTHC 0,20%",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/balkanhashis.png?v=1731595571",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/balkanhashis.png?v=1731595571",
+      "variants": [
+        {
+          "id": "53449777086812",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 25,
+        "max": 25
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "balkan-jaje",
+      "shopifyId": "15451721498972",
+      "title": "BALKAN JAJE",
+      "handle": "balkan-jaje",
+      "url": "https://balkanpharm.hr/products/balkan-jaje",
+      "vendor": "BalkanPharm",
+      "productType": "",
+      "tags": [],
+      "descriptionText": "Mješavina CBD i CBG cvijeta, Cannabis Sativa L (sa zajedničke EU liste), CBD- 10-26%, CBG- 5-20% i THC-0,1-0,2%.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/mix.png?v=1771844003",
+          "width": 2955,
+          "height": 2587
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/mix.png?v=1771844003",
+      "variants": [
+        {
+          "id": "56801116750172",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 5,
+          "compareAtPriceEur": null,
+          "sku": null,
+          "grams": 12,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 5,
+        "max": 5
+      },
+      "categories": [],
+      "primaryCategory": null
+    },
+    {
+      "id": "balkan-moon-2g",
+      "shopifyId": "7886975303922",
+      "title": "Balkan Moon - 2g",
+      "handle": "balkan-moon-2g",
+      "url": "https://balkanpharm.hr/products/balkan-moon-2g",
+      "vendor": "BalkanPharm",
+      "productType": "moonrock",
+      "tags": [],
+      "descriptionText": "Balkan Moon pakiran je u papirnate vrećice. Pakiranje sadrži 2g osušenih dijelova industrijske konoplje (Cannabis sativa L.) sa <0,2% THC-a i 40% CBD-a. Proizvod je testiran i analiziran za omjer kanabinoida.\nProizvodi od CBD & CBG dijelova <0,3% THC\nZabranjeno za osobe mlađe od 18 godina\nMade in: EU",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Dizajnbeznaslova_12.png?v=1703780032",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Balkanmoonrock-uzorak.png?v=1703780032",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Dizajnbeznaslova_12.png?v=1703780032",
+      "variants": [
+        {
+          "id": "44404706509042",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "0725765362889",
+          "grams": 2,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 25,
+        "max": 25
+      },
+      "categories": [
+        "Moonrocks"
+      ],
+      "primaryCategory": "Moonrocks"
+    },
+    {
+      "id": "balkan-orkain-vocni-caj-50g",
+      "shopifyId": "14854468206940",
+      "title": "Balkan Orkain- voćni čaj 50g",
+      "handle": "balkan-orkain-vocni-caj-50g",
+      "url": "https://balkanpharm.hr/products/balkan-orkain-vocni-caj-50g",
+      "vendor": "BalkanPharm",
+      "productType": "cbd tea",
+      "tags": [],
+      "descriptionText": "Specifikacije: THC: <0.3%  CBD: >15%\nSastav:  limunska verbena, matičnjak, list kupine, šipak, jabuka, hibiskus, guarana ( 10% ), list Cannabis sative (sorte Kompolti, Silvana, Finola)\nNačin pripreme:    15-20 g preliti s 1 L vrele vode, ostaviti poklopljeno 10-12 minuta.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/balkan50g.png?v=1737404664",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/balkan50g.png?v=1737404664",
+      "variants": [
+        {
+          "id": "56108764070236",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 20,
+          "compareAtPriceEur": null,
+          "sku": null,
+          "grams": 50,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 20,
+        "max": 20
+      },
+      "categories": [
+        "Čajevi"
+      ],
+      "primaryCategory": "Čajevi"
+    },
+    {
+      "id": "big-boss-set",
+      "shopifyId": "8742904201564",
+      "title": "Big Boss set",
+      "handle": "big-boss-set",
+      "url": "https://balkanpharm.hr/products/big-boss-set",
+      "vendor": "BalkanPharm",
+      "productType": "",
+      "tags": [],
+      "descriptionText": "Big boss set predstavlja snažnu i aromatičnu kolekciju CBD proizvoda, pomno izrađenu za zadovoljene različitih potreba naših cijenjenih kupaca. Započnite jutro sa našim prirodnim čajem \"Ovaj diže iz mrtvih\" i osjetite boost koji je Vašem organizmu potreban za uspješan i ispunjen početak dana. Nakon napornog dana za Vas su tu Blek Brna i G.B. Boss frulice koje će se pobrinuti za pružanje iznimnog olakšanja i opuštanja.\nMali set:\nBlek Brna 2g\n2x G.B. Boss frulice\nOvaj diže iz mrtvih 50g\nVeliki set:\nBlek Brna 6g\n4x G.B. Boss frulice\nOvaj diže iz mrtvih 100g\nSvaki proizvod u našoj kolekciji pažljivo je formuliran kako bi\npružio neusporedivu snagu i učinkovitost.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Bigbossset.png?v=1707313007",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Bigbossset.png?v=1707313007",
+      "variants": [
+        {
+          "id": "47631413576028",
+          "title": "Mali",
+          "available": true,
+          "priceEur": 30,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "Mali",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "47631413608796",
+          "title": "Veliki",
+          "available": true,
+          "priceEur": 70,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "Veliki",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 30,
+        "max": 70
+      },
+      "categories": [
+        "Setovi"
+      ],
+      "primaryCategory": "Setovi"
+    },
+    {
+      "id": "blek-brna",
+      "shopifyId": "7561172779250",
+      "title": "Blek Brna – jantarove balzamične arome sa citrusnom notom – 2g/6g",
+      "handle": "blek-brna",
+      "url": "https://balkanpharm.hr/products/blek-brna",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Blek brna predstavlja snažan spoj jantarovih balzamičnih aroma sa citrusnim notama.\nOvi cvjetovi potiču iz pažljivo uzgojenih konoplja, biranih zbog njihove visoke koncentracije CBD-a i minimalnog udjela THC-a, čime se osigurava da se korisnici mogu osjećati opušteno i uravnoteženo, bez ikakvih psihoaktivnih efekata.\nOvaj proizvod je certificirana sorta konoplje navedena u EU katalogu.\nMože sadržavati do <0,3% THC-a i 10-15% CBD-a.\nČuvati izvan dohvata djece\nZabranjeno za osobe mlađe od 18 godina\nSluži samo u promotivne svrhe.\nBlek Brna pakiran je u papirnate vrećice. Pakiranje sadrži 2g/6g osušenih dijelova industrijske konoplje (Cannabis sativa L.). Postupak skidanja lišća (trimanja) sa cvijeta je obavljen ručno.\nProizvod je testiran i analiziran za omjer kanabinoida.\nMade in: EU\nNaš CBD cvijet je sirovina i nije namijenjen za konzumaciju i pušenje. Prodaje se isključivo kao suvenir.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/blekbrna2g.png?v=1707092508",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_6.png?v=1707092508",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/blekbrna.jpg?v=1707092508",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/blekbrna2g.png?v=1707092508",
+      "variants": [
+        {
+          "id": "42484488503538",
+          "title": "2g",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "0764460713466",
+          "grams": 2,
+          "option1": "2g",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "42484488536306",
+          "title": "6g",
+          "available": true,
+          "priceEur": 75,
+          "compareAtPriceEur": null,
+          "sku": "0764460713473",
+          "grams": 6,
+          "option1": "6g",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 25,
+        "max": 75
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "blue-sky-2g",
+      "shopifyId": "7622052774130",
+      "title": "Blue Sky – miris kiše – 2g",
+      "handle": "blue-sky-2g",
+      "url": "https://balkanpharm.hr/products/blue-sky-2g",
+      "vendor": "BalkanPharm",
+      "productType": "moonrock",
+      "tags": [],
+      "descriptionText": "Blue Sky pakiran je u papirnate vrećice. Pakiranje sadrži 2g osušenog cvijeta industrijske konoplje (Cannabis sativa L.) sa preko 90% CBD-a. Proizvod je testiran i analiziran za omjer kanabinoida.\nProizvodi od CBD & CBG cvijeća <0,3% THC\nZabranjeno za osobe mlađe od 18 godina",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Dizajnbeznaslova_13.png?v=1703867225",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/blusky-miriskiseuzorak.png?v=1703867225",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Dizajnbeznaslova_13.png?v=1703867225",
+      "variants": [
+        {
+          "id": "42935940448498",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "0725765362841",
+          "grams": 2,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 25,
+        "max": 25
+      },
+      "categories": [
+        "Moonrocks"
+      ],
+      "primaryCategory": "Moonrocks"
+    },
+    {
+      "id": "brna-hashis-2g",
+      "shopifyId": "14766032519516",
+      "title": "BRNA HASHIS 2g",
+      "handle": "brna-hashis-2g",
+      "url": "https://balkanpharm.hr/products/brna-hashis-2g",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Otključajte puni potencijal CBD-a s našim vrhunskim CBD BRNA HASHOM- snažnim, potpuno prirodnim koncentratom izrađenim za one koji traže poboljšane dobrobiti bez psihoaktivnih učinaka. Napravljen od najfinijih biljaka konoplje, naš CBD HASH donosi bogato iskustvo punog spektra, prepun moćnih kanabinoida, terpena i fitonutrijenata za podršku vašem umu i tijelu.\nCBD hash je koncentrirani oblik kanabidiola (CBD) napravljen od smolastih trihoma biljke konoplje. To je tradicionalni proizvod od kanabisa koji se koristi stoljećima, ali s modernim prizvukom. CBD hash nastaje pažljivim skupljanjem smolastih žlijezda (trihoma) iz biljke konoplje i zatim njihovim sabijanjem u gusti, ljepljivi blok ili grumen. Ovaj proizvod je obično snažniji od običnog CBD cvijeta zbog svoje koncentrirane prirode, jer sadrži veće razine CBD-a.\nBRNA HASHIS dolazi u pakiranju od 2g.\nCBD 60%\nTHC 0,20%",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/brnahashis.png?v=1731594449",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/brnahashis.png?v=1731594449",
+      "variants": [
+        {
+          "id": "53449771450716",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 25,
+        "max": 25
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "cbd-bouquet-damour",
+      "shopifyId": "14856598716764",
+      "title": "CBD Bouquet d'amour",
+      "handle": "cbd-bouquet-damour",
+      "url": "https://balkanpharm.hr/products/cbd-bouquet-damour",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "🌹  CBD BUKETI savršen su način da svojim voljenima pokažete da vam je stalo, kombinirajući ljepotu svježeg cvijeća s umirujućim blagodatima CBD-a. Bilo za vašeg partnera, prijatelja ili bilo koga posebnog, ovi buketi nude jedinstvenu i promišljenu gestu koju ćete doista cijeniti.\nStvorite trajna sjećanja s našim pažljivo odabranim headovima, koji obećavaju da će uljepšati Vašu proslavu Valentinova i ostaviti trajan dojam.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/2_df9921cd-9749-435f-a94c-7b9ff37d51a9.png?v=1737558067",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/5_1a0440f6-9ff5-408d-b424-761dfff805ed.png?v=1737558067",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Untitleddesign.png?v=1737558067",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/2_df9921cd-9749-435f-a94c-7b9ff37d51a9.png?v=1737558067",
+      "variants": [
+        {
+          "id": "53848834572636",
+          "title": "mali",
+          "available": true,
+          "priceEur": 20,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "mali",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "53848834605404",
+          "title": "srednji",
+          "available": true,
+          "priceEur": 30,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "srednji",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "53848834638172",
+          "title": "veliki",
+          "available": true,
+          "priceEur": 40,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "veliki",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 20,
+        "max": 40
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "cbd-ulje-jagoda",
+      "shopifyId": "8365016613212",
+      "title": "CBD Ulje - Jagoda",
+      "handle": "cbd-ulje-jagoda",
+      "url": "https://balkanpharm.hr/products/cbd-ulje-jagoda",
+      "vendor": "BalkanPharm",
+      "productType": "CBD Ulje",
+      "tags": [],
+      "descriptionText": "CBD Ulje 20ml\n5% 500mg\n10% 1000mg\n15% 1500mg\nPredstavljamo naše CBD ulje vrhunske kvalitete s okusom jagode - dostupno u koncentracijama od 5%, 10% i 15%. Naše CBD ulje dobiva se iz organski uzgojenih biljaka konoplje i bogato je prirodnim kanabinoidima, terpenima i flavonoidima.\nNaše visokokvalitetno CBD ulje pomiješano je s prirodnom aromom jagode kako bi se stvorio ukusan proizvod koji se lako konzumira.\nNaše CBD ulje je laboratorijski ispitano kako bi se osigurala najviša kvaliteta i čistoća. To je nepsihoaktivan proizvod, što znači da ne uzrokuje nikakvo opijanje ili \"high\" povezan s THC-om. Umjesto toga, radi s endokanabinoidnim sustavom vašeg tijela kako bi pomogao u promicanju osjećaja smirenosti i blagostanja.\nKoncentracije od 5%, 10% i 15% omogućuju vam odabir jačine koja odgovara vašim individualnim potrebama. Naše CBD ulje je jednostavno za korištenje - jednostavno stavite željenu količinu pod jezik i držite je tamo 60-90 sekundi prije nego što progutate. Preporučujemo da počnete s nižom koncentracijom i postupno povećavate dok ne pronađete dozu koja vam najbolje odgovara.\nNaše CBD ulje u okusu jagode savršeno je za one koji vole sladak i blag okus. Možete ga dodati vašoj omiljenoj hrani ili piću ili jednostavno uživati u njemu. Sa svojim visokokvalitetnim sastojcima i finim okusom, naše CBD ulje u okusu jagode izvrstan je dodatak vašoj dnevnoj wellness rutini.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/pexels-dominika-roseclay-5462208copyJAGODAcopy.jpg?v=1681481311",
+          "width": 2500,
+          "height": 3000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/pexels-dominika-roseclay-5462208copyJAGODAcopy.jpg?v=1681481311",
+      "variants": [
+        {
+          "id": "46488201527644",
+          "title": "5%",
+          "available": true,
+          "priceEur": 35,
+          "compareAtPriceEur": null,
+          "sku": "0745178938242",
+          "grams": 2,
+          "option1": "5%",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "46488201560412",
+          "title": "10%",
+          "available": true,
+          "priceEur": 45,
+          "compareAtPriceEur": null,
+          "sku": "0745178938259",
+          "grams": 2,
+          "option1": "10%",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "46488201593180",
+          "title": "15%",
+          "available": true,
+          "priceEur": 55,
+          "compareAtPriceEur": null,
+          "sku": "0745178938266",
+          "grams": 2,
+          "option1": "15%",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 35,
+        "max": 55
+      },
+      "categories": [
+        "CBD Ulje"
+      ],
+      "primaryCategory": "CBD Ulje"
+    },
+    {
+      "id": "cbd-ulje-naranca",
+      "shopifyId": "8364994920796",
+      "title": "CBD Ulje - Naranča",
+      "handle": "cbd-ulje-naranca",
+      "url": "https://balkanpharm.hr/products/cbd-ulje-naranca",
+      "vendor": "BalkanPharm",
+      "productType": "CBD Ulje",
+      "tags": [],
+      "descriptionText": "CBD Ulje 20ml\n5% 500mg\n10% 1000mg\n15% 1500mg\nPredstavljamo naše CBD ulje vrhunske kvalitete s okusom naranče - dostupno u koncentracijama od 5%, 10% i 15%. Naše CBD ulje dobiva se iz organski uzgojenih biljaka konoplje i bogato je prirodnim kanabinoidima, terpenima i flavonoidima.\nNaše visokokvalitetno CBD ulje pomiješano je s prirodnom aromom naranče kako bi se stvorio ukusan proizvod koji se lako konzumira.\nNaše CBD ulje je laboratorijski ispitano kako bi se osigurala najviša kvaliteta i čistoća. To je nepsihoaktivan proizvod, što znači da ne uzrokuje nikakvo opijanje ili \"high\" povezan s THC-om. Umjesto toga, radi s endokanabinoidnim sustavom vašeg tijela kako bi pomogao u promicanju osjećaja smirenosti i blagostanja.\nKoncentracije od 5%, 10% i 15% omogućuju vam odabir jačine koja odgovara vašim individualnim potrebama.\nNaše CBD ulje je jednostavno za korištenje - jednostavno stavite željenu količinu pod jezik i držite je tamo 60-90 sekundi prije nego što progutate. Preporučujemo da počnete s nižom koncentracijom i postupno povećavate dok ne pronađete dozu koja vam najbolje odgovara.\nNaše CBD ulje u okusu naranče savršeno je za one koji vole sladak i blag okus. Možete ga dodati vašoj omiljenoj hrani ili piću ili jednostavno uživati u njemu. Sa svojim visokokvalitetnim sastojcima i finim okusom, naše CBD ulje u okusu naranče izvrstan je dodatak vašoj dnevnoj wellness rutini.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/pexels-dominika-NARANCA2500x3000.jpg?v=1681479713",
+          "width": 2500,
+          "height": 3000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/pexels-dominika-NARANCA2500x3000.jpg?v=1681479713",
+      "variants": [
+        {
+          "id": "46488157946204",
+          "title": "5%",
+          "available": true,
+          "priceEur": 35,
+          "compareAtPriceEur": null,
+          "sku": "0745178626446",
+          "grams": 0,
+          "option1": "5%",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "46488157978972",
+          "title": "10%",
+          "available": false,
+          "priceEur": 45,
+          "compareAtPriceEur": null,
+          "sku": "0745178938228",
+          "grams": 0,
+          "option1": "10%",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "46488158011740",
+          "title": "15%",
+          "available": false,
+          "priceEur": 55,
+          "compareAtPriceEur": null,
+          "sku": "0745178938235",
+          "grams": 0,
+          "option1": "15%",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 35,
+        "max": 55
+      },
+      "categories": [
+        "CBD Ulje"
+      ],
+      "primaryCategory": "CBD Ulje"
+    },
+    {
+      "id": "cbd-ulje-prirodno",
+      "shopifyId": "8365023560028",
+      "title": "CBD Ulje - Prirodno",
+      "handle": "cbd-ulje-prirodno",
+      "url": "https://balkanpharm.hr/products/cbd-ulje-prirodno",
+      "vendor": "BalkanPharm",
+      "productType": "CBD Ulje",
+      "tags": [],
+      "descriptionText": "CBD Ulje 20ml\n5% 500mg\n10% 1000mg\n15% 1500mg\nPredstavljamo naše CBD ulje vrhunske kvalitete s okusom prirodno - dostupno u koncentracijama od 5%, 10% i 15%.\nNaše CBD ulje dobiva se iz organski uzgojenih biljaka konoplje i bogato je prirodnim kanabinoidima, terpenima i flavonoidima.\nNaše visokokvalitetno CBD ulje pomiješano je s prirodnom aromom prirodno kako bi se stvorio ukusan proizvod koji se lako konzumira.\nNaše CBD ulje je laboratorijski ispitano kako bi se osigurala najviša kvaliteta i čistoća. To je nepsihoaktivan proizvod, što znači da ne uzrokuje nikakvo opijanje ili \"high\" povezan s THC-om. Umjesto toga, radi s endokanabinoidnim sustavom vašeg tijela kako bi pomogao u promicanju osjećaja smirenosti i blagostanja.\nKoncentracije od 5%, 10% i 15% omogućuju vam odabir jačine koja odgovara vašim individualnim potrebama.\nNaše CBD ulje je jednostavno za korištenje - jednostavno stavite željenu količinu pod jezik i držite je tamo 60-90 sekundi prije nego što progutate.\nPreporučujemo da počnete s nižom koncentracijom i postupno povećavate dok ne pronađete dozu koja vam najbolje odgovara.\nNaše CBD ulje u okusu prirodno savršeno je za one koji vole sladak i blag okus. Možete ga dodati vašoj omiljenoj hrani ili piću ili jednostavno uživati u njemu.\nSa svojim visokokvalitetnim sastojcima i finim okusom, naše CBD ulje u okusu prirodno izvrstan je dodatak vašoj dnevnoj wellness rutini.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/pexels-dominika-roseclayPRIRODNOcopy.jpg?v=1681481746",
+          "width": 2500,
+          "height": 3000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/pexels-dominika-roseclayPRIRODNOcopy.jpg?v=1681481746",
+      "variants": [
+        {
+          "id": "46488213029212",
+          "title": "5%",
+          "available": true,
+          "priceEur": 35,
+          "compareAtPriceEur": null,
+          "sku": "0745178938273",
+          "grams": 2,
+          "option1": "5%",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "46488213061980",
+          "title": "10%",
+          "available": true,
+          "priceEur": 45,
+          "compareAtPriceEur": null,
+          "sku": "0745178938280",
+          "grams": 2,
+          "option1": "10%",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "46488213094748",
+          "title": "15%",
+          "available": true,
+          "priceEur": 55,
+          "compareAtPriceEur": null,
+          "sku": "0745178938297",
+          "grams": 2,
+          "option1": "15%",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 35,
+        "max": 55
+      },
+      "categories": [
+        "CBD Ulje"
+      ],
+      "primaryCategory": "CBD Ulje"
+    },
+    {
+      "id": "cbd-ulje-vanilija-5-10-15-cbd",
+      "shopifyId": "8364882362716",
+      "title": "CBD Ulje - Vanilija",
+      "handle": "cbd-ulje-vanilija-5-10-15-cbd",
+      "url": "https://balkanpharm.hr/products/cbd-ulje-vanilija-5-10-15-cbd",
+      "vendor": "BalkanPharm",
+      "productType": "CBD Ulje",
+      "tags": [],
+      "descriptionText": "CBD Ulje 20ml\n5% 500mg\n10% 1000mg\n15% 1500mg\nPredstavljamo naše CBD ulje vrhunske kvalitete s okusom vanilije - dostupno u koncentracijama od 5%, 10% i 15%.     Naše CBD ulje dobiva se iz organski uzgojenih biljaka konoplje i bogato je prirodnim kanabinoidima, terpenima i flavonoidima.\nNaše visokokvalitetno CBD ulje pomiješano je s prirodnom aromom vanilije kako bi se stvorio ukusan proizvod koji se lako konzumira.         Naše CBD ulje je laboratorijski ispitano kako bi se osigurala najviša kvaliteta i čistoća.\nTo je nepsihoaktivan proizvod, što znači da ne uzrokuje nikakvo opijanje ili \"high\" povezan s THC-om.     Umjesto toga, radi s endokanabinoidnim sustavom vašeg tijela kako bi pomogao u promicanju osjećaja smirenosti i blagostanja.\nKoncentracije od 5%, 10% i 15% omogućuju vam odabir jačine koja odgovara vašim individualnim potrebama.\nNaše CBD ulje je jednostavno za korištenje - jednostavno stavite željenu količinu pod jezik i držite je tamo 60-90 sekundi prije nego što progutate.     Preporučujemo da počnete s nižom koncentracijom i postupno povećavate dok ne pronađete dozu koja vam najbolje odgovara.\nNaše CBD ulje u okusu vanilije savršeno je za one koji vole sladak i blag okus.     Možete ga dodati vašoj omiljenoj hrani ili piću ili jednostavno uživati u njemu.     Sa svojim visokokvalitetnim sastojcima i finim okusom, naše CBD ulje u okusu vanilije izvrstan je dodatak vašoj dnevnoj wellness rutini.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/zashopifycopy.jpg?v=1681480016",
+          "width": 2500,
+          "height": 3000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/zashopifycopy.jpg?v=1681480016",
+      "variants": [
+        {
+          "id": "46488141168988",
+          "title": "5%",
+          "available": true,
+          "priceEur": 35,
+          "compareAtPriceEur": null,
+          "sku": "0745178626415",
+          "grams": 2,
+          "option1": "5%",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "46488141201756",
+          "title": "10%",
+          "available": true,
+          "priceEur": 45,
+          "compareAtPriceEur": null,
+          "sku": "0745178626422",
+          "grams": 2,
+          "option1": "10%",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "46488141234524",
+          "title": "15%",
+          "available": true,
+          "priceEur": 55,
+          "compareAtPriceEur": null,
+          "sku": "0745178626439",
+          "grams": 2,
+          "option1": "15%",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 35,
+        "max": 55
+      },
+      "categories": [
+        "CBD Ulje"
+      ],
+      "primaryCategory": "CBD Ulje"
+    },
+    {
+      "id": "cbd-cbg",
+      "shopifyId": "7561179332850",
+      "title": "CBDCBG – kombinacija slatko-kiselih aroma - 2g/6g",
+      "handle": "cbd-cbg",
+      "url": "https://balkanpharm.hr/products/cbd-cbg",
+      "vendor": "BalkanPharm",
+      "productType": "cbg flower",
+      "tags": [],
+      "descriptionText": "CBD&CBG predstavlja kombinaciju slatko kiselih aroma. Savršen za opuštanje nakon napornog dana.\nOvi cvjetovi potiču iz pažljivo uzgojenih konoplja, biranih zbog njihove visoke koncentracije CBD-a i minimalnog udjela THC-a, čime se osigurava da se korisnici mogu osjećati opušteno i uravnoteženo, bez ikakvih psihoaktivnih efekata.\nOvaj proizvod je certificirana sorta konoplje navedena u EU katalogu.\nMože sadržavati tragove do  <0,3% THC-a i 10% - 15% CBD-a.\nDodatni naziv služi samo u promotivne svrhe.\nČuvati izvan dohvata djece\nZabranjeno za osobe mlađe od 18 godina\nCBDCBG pakiran je u papirnate vrećice. Pakiranje sadrži 2g/6g osušenog cvijeta industrijske konoplje (Cannabis sativa L.). Postupak skidanja lišća (trimanja) sa cvijeta je obavljen ručno. Proizvod je testiran i analiziran za omjer kanabinoida.\nMade in: EU\nNaš CBD cvijet je sirovina i nije namijenjen za konzumaciju i pušenje. Prodaje se isključivo kao suvenir.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_8.png?v=1704840287",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/cbd_cbg6g_1.png?v=1705686989",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/CBG.jpg?v=1705686989",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_8.png?v=1704840287",
+      "variants": [
+        {
+          "id": "42484551090418",
+          "title": "2g",
+          "available": true,
+          "priceEur": 10,
+          "compareAtPriceEur": null,
+          "sku": "0745178626347",
+          "grams": 2,
+          "option1": "2g",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "42484551123186",
+          "title": "6g",
+          "available": true,
+          "priceEur": 30,
+          "compareAtPriceEur": null,
+          "sku": "0745178626354",
+          "grams": 6,
+          "option1": "6g",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 10,
+        "max": 30
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "cupidov-set",
+      "shopifyId": "8739219243356",
+      "title": "Cupidov set",
+      "handle": "cupidov-set",
+      "url": "https://balkanpharm.hr/products/cupidov-set",
+      "vendor": "BalkanPharm",
+      "productType": "",
+      "tags": [],
+      "descriptionText": "Uzdignite svoje izraze ljubavi s našim izvrsnim setom proizvoda koji je dizajniran da osvoji srca i stvori nezaboravne trenutke. Svaki ručno odabrani predmet u ovoj kolekciji utjelovljuje bit romantike i sofisticiranosti, što ga čini savršenim darom za vašu posebnu osobu.\nMali set:\nTopla crvena rapsodija 50g\n2x G.B. N- Joy frulica\nRed boobs 2g\nVeliki set:\nTopla crvena rapsodija 100g\n4x G.B. N-Joy frulica\nRed boobs 6g\nSvaki predmet u ovoj kolekciji pažljivo je odabran kako bi prenio dubinu vaše ljubavi.\nNeka ljubav procvjeta uz našu očaravajuću kolekciju!",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/cupidovset.png?v=1707130796",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/cupidovset.png?v=1707130796",
+      "variants": [
+        {
+          "id": "47621032804700",
+          "title": "Mali",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "Mali",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "47621032837468",
+          "title": "Veliki",
+          "available": true,
+          "priceEur": 55,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "Veliki",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 25,
+        "max": 55
+      },
+      "categories": [
+        "Setovi"
+      ],
+      "primaryCategory": "Setovi"
+    },
+    {
+      "id": "caj-carobna-banana",
+      "shopifyId": "7561179726066",
+      "title": "Čarobna Banana – voćni čaj – slatka aroma – 50/100g",
+      "handle": "caj-carobna-banana",
+      "url": "https://balkanpharm.hr/products/caj-carobna-banana",
+      "vendor": "BalkanPharm",
+      "productType": "cbd tea",
+      "tags": [],
+      "descriptionText": "Specifikacije: THC: <0.3%  CBD: >15%\nSastav : banana (15%), višnja, šipak, jabuka, hibiskus, grožđe, med, kokos, list Cannabis sative (sorte Kompolti, Silvana, Finola)\nNačin pripreme:  15-20 g preliti s 1 L vrele vode, ostaviti poklopljeno 10-12 minuta",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/carobnabanana100g_1.png?v=1708464197",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/5_7350ec67-d265-47f0-88af-d2d63752125e.png?v=1708464197",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/CarobnabananaCBDcaj.png?v=1708464197",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/carobnabanana100g_1.png?v=1708464197",
+      "variants": [
+        {
+          "id": "44425369977074",
+          "title": "50",
+          "available": true,
+          "priceEur": 15,
+          "compareAtPriceEur": null,
+          "sku": "0745178626392",
+          "grams": 50,
+          "option1": "50",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "44425366700274",
+          "title": "100g",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "0725765722652",
+          "grams": 100,
+          "option1": "100g",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 15,
+        "max": 25
+      },
+      "categories": [
+        "Čajevi"
+      ],
+      "primaryCategory": "Čajevi"
+    },
+    {
+      "id": "cbd-dark-queen",
+      "shopifyId": "7561178775794",
+      "title": "Dark Queen – opuštajuće mirisne note – 2g/6g",
+      "handle": "cbd-dark-queen",
+      "url": "https://balkanpharm.hr/products/cbd-dark-queen",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Dark queen je kraljica vitalnosti. Njena energizirajuća snaga budi tijelo i osvježava duh. Ovaj cvijet je idealan suputnik za poticanje kreativnosti i fokusiranje na zadatke tijekom dana.\nOvaj proizvod je certificirana sorta konoplje navedena u EU katalogu.\nMože sadržavati tragove do  <0,3% THC-a i 10% - 15% CBD-a .\nDodatni naziv služi samo u promotivne svrhe.\nČuvati izvan dohvata djece\nZabranjeno za osobe mlađe od 18 godina\nDark Queen pakiran je u papirnate vrećice. Pakiranje sadrži 2g/6g osušenog cvijeta industrijske konoplje (Cannabis sativa L.). Postupak skidanja lišća (trimanja) sa cvijeta je obavljen ručno. Proizvod je testiran i analiziran za omjer kanabinoida.\nMade in: EU\nNaš CBD cvijet je sirovina i nije namijenjen za konzumaciju i pušenje. Prodaje se isključivo kao suvenir.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/darkqueen2g.png?v=1707079268",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_2.png?v=1707079268",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/DarkQueen.jpg?v=1707079268",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/darkqueen2g.png?v=1707079268",
+      "variants": [
+        {
+          "id": "42484547715314",
+          "title": "2g",
+          "available": true,
+          "priceEur": 10,
+          "compareAtPriceEur": null,
+          "sku": "0745178626309",
+          "grams": 2,
+          "option1": "2g",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "42484547748082",
+          "title": "6g",
+          "available": true,
+          "priceEur": 30,
+          "compareAtPriceEur": null,
+          "sku": "0745178626316",
+          "grams": 6,
+          "option1": "6g",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 10,
+        "max": 30
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "devil-shit-2g",
+      "shopifyId": "15444943798620",
+      "title": "Devil Shit 2g",
+      "handle": "devil-shit-2g",
+      "url": "https://balkanpharm.hr/products/devil-shit-2g",
+      "vendor": "BalkanPharm",
+      "productType": "",
+      "tags": [],
+      "descriptionText": "CBD industrijska konoplja 2 g\nCvijet konoplje (sa zajedničke liste EU)\nTHC < 0,2%\nCBD 10%-15%\nBez psihoaktivnih učinaka!",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/0764460713442.png?v=1771423937",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/0764460713442.png?v=1771423937",
+      "variants": [
+        {
+          "id": "56761184289116",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 5,
+          "compareAtPriceEur": null,
+          "sku": null,
+          "grams": 2,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 5,
+        "max": 5
+      },
+      "categories": [],
+      "primaryCategory": null
+    },
+    {
+      "id": "forest-frost",
+      "shopifyId": "7561175040242",
+      "title": "Forest Frost – aroma bora - 5g/10g",
+      "handle": "forest-frost",
+      "url": "https://balkanpharm.hr/products/forest-frost",
+      "vendor": "BalkanPharm",
+      "productType": "cbg flower",
+      "tags": [
+        "cbg"
+      ],
+      "descriptionText": "Forest frost ( aroma bora), vrhunski je izbor za sve koji traže prirodan način za opuštanje i relaksaciju. Svaki cvijet nudi bogatstvo CBD-a, čiste biljne esencije koje su poznate po svojim umirujućim svojstvima i balansiranju uma i tijela.\nOvi cvjetovi potiču iz pažljivo uzgojenih konoplja, biranih zbog njihove visoke koncentracije CBD-a i minimalnog udjela THC-a, čime se osigurava da se korisnici mogu osjećati opušteno i uravnoteženo, bez ikakvih psihoaktivnih efekata.\nOvaj proizvod je certificirana sorta konoplja navedenih u EU katalogu.\nMože sadržavati tragove do  <0,2% THC-a i 10% - 15% CBG-a .\nDodatni naziv služi samo u promotivne svrhe.\nČuvati izvan dohvata djece.\nZabranjeno za osobe mlađe od 18 godina.\nForest Frost pakiran je u papirnate vrećice. Pakiranje sadrži 5g/10g osušenog cvijeta industrijske konoplje (Cannabis sativa L.). Postupak skidanja lišća (trimanja) sa cvijeta je obavljen ručno. Proizvod je testiran i analiziran za omjer kanabinoida.\nMade in: EU\nNaš CBD cvijet je sirovina i nije namijenjen za konzumaciju i pušenje. Prodaje se isključivo kao suvenir.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_9.png?v=1704840327",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/ForestFrost.jpg?v=1704840326",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_9.png?v=1704840327",
+      "variants": [
+        {
+          "id": "42484524810482",
+          "title": "5g",
+          "available": true,
+          "priceEur": 20,
+          "compareAtPriceEur": null,
+          "sku": "0725765362803",
+          "grams": 5,
+          "option1": "5g",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "42484524843250",
+          "title": "10g",
+          "available": true,
+          "priceEur": 40,
+          "compareAtPriceEur": null,
+          "sku": "0725765362810",
+          "grams": 10,
+          "option1": "10g",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 20,
+        "max": 40
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "n-joy-1g",
+      "shopifyId": "7879781646578",
+      "title": "G.B.  N - Joy - 1g",
+      "handle": "n-joy-1g",
+      "url": "https://balkanpharm.hr/products/n-joy-1g",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Specifikacija:  THC 0,1 - 0,3%\nCBD 10-26%\nCBG 5-20%\nG.B.  N-joy je više od obične CBD frulice - to je iskustvo.  Dizajniran za one koji traže ravnotežu i opuštanje u svakodnevnom životu,  N-joy je savršen način za opuštanje nakon dugog dana. Sa svojim glatkim i aromatičnim dimom, ova frulica će vam sigurno izmamiti osmijeh na lice i  osjećaj smirenosti u vašem umu.  Napravljen od visokokvalitetnog industrijskog kanabisa koji sadrži 0,2% THC-a i pažljivo uravnoteženu količinu CBD-a, N-joy je savršen suputnik za one koji žele uživati u blagodatima kanabisa bez psihoaktivnih učinaka.\nSastojci: dijelovi   konoplje (cannabis sativa L. - sa zajedničke liste EU)\nMade in EU\nSuvenir za osobno istraživanje, nije za konzumaciju",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/N-joy.png?v=1705180655",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/N-joy.png?v=1705180655",
+      "variants": [
+        {
+          "id": "44366875754738",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 6,
+          "compareAtPriceEur": null,
+          "sku": "0725765722690",
+          "grams": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 6,
+        "max": 6
+      },
+      "categories": [
+        "Frulice"
+      ],
+      "primaryCategory": "Frulice"
+    },
+    {
+      "id": "g-b-d-boss",
+      "shopifyId": "7888097476850",
+      "title": "G.B. D Boss",
+      "handle": "g-b-d-boss",
+      "url": "https://balkanpharm.hr/products/g-b-d-boss",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Specifikacija:  THC 0,1 - 0,3%\nCBD 10-15%\nCBG 15-20%\nHASH 15%\nG.B. BOSS je kralj CBD spojeva. Sa svojom snažnom i aromatičnom mješavinom industrijskog kanabisa i pravom količinom CBD-a, ova frulica će sigurno zadovoljiti i najprobirljivijeg poznavatelja kanabisa. Bilo da se želite  opustiti nakon dugog dana  ili samo želite uživati u  visokokvalitetnom kanabisu. G.B. BOSS je savršen izbor. Zato se udobno smjestite i  pustite Boss-a da se pobrine za ostalo.\nSastojci: dijelovi   konoplje (cannabis sativa L. - sazajedničke liste EU)\nMade in EU\nSuvenir za osobno istraživanje, nije za konzumaciju",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/g.b.d.boss.png?v=1705183338",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/g.b.d.boss.png?v=1705183338",
+      "variants": [
+        {
+          "id": "44409489490162",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 6,
+          "compareAtPriceEur": null,
+          "sku": "0725765722669",
+          "grams": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 6,
+        "max": 6
+      },
+      "categories": [
+        "Frulice"
+      ],
+      "primaryCategory": "Frulice"
+    },
+    {
+      "id": "g-b-sos",
+      "shopifyId": "7891456458994",
+      "title": "G.B. SOS",
+      "handle": "g-b-sos",
+      "url": "https://balkanpharm.hr/products/g-b-sos",
+      "vendor": "BalkanPharm",
+      "productType": "",
+      "tags": [],
+      "descriptionText": "Specifikacija:  THC 0,1 - 0,3%\nCBD 10-15%\nCBG 15-20%\nHASH 5%\nG.B. SOS je spoj za hitne slučajeve koji vam je potreban  kada život postane previše stresan.  Napravljen od visokokvalitetnog industrijskog kanabisa i prave količine CBD-a, ova frulica je dizajnirana da vam pomogne da se opustite kada vam je to najpotrebnije. Sa svojim glatkim i blagim dimom, G.B. SOS je  savršen način da se odmorite od kaosa svakodnevnog života i pronađete svoje središte.\nSastojci: dijelovi   konoplje (cannabis sativa L. - sa zajedničke liste EU)\nČuvati izvan dohvata djece\nZabranjeno za osobe mlađe od 18 godina\nMade in: EU\nSuvenir za osobno istraživanje, nije za konzumaciju",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/sos.png?v=1705180735",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/sos.png?v=1705180735",
+      "variants": [
+        {
+          "id": "44425742975218",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 6,
+          "compareAtPriceEur": null,
+          "sku": "0764460713534",
+          "grams": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 6,
+        "max": 6
+      },
+      "categories": [
+        "Frulice"
+      ],
+      "primaryCategory": "Frulice"
+    },
+    {
+      "id": "g-b-sour-d",
+      "shopifyId": "7888105668850",
+      "title": "G.B. Sour D",
+      "handle": "g-b-sour-d",
+      "url": "https://balkanpharm.hr/products/g-b-sour-d",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Specifikacija:  THC 0,1 - 0,3%\nCBD 10-18%\nCBG 10-18%\nHASH 10%\nB.G. SOUR D  je savršen izbor za one koji trebaju  malo više energije i fokusa  u svom danu. Napravljen od pomno odabrane mješavine industrijskog kanabisa i prave količine CBD-a, ova frulica, osmišljena je da vam pruži  poticaj bez treme ili pada kofeina . Sa svojim pikantnim i citrusnim okusom, B.G. SOUR D je savršen način da započnete dan ili date snagu kroz užurbano poslijepodne.\nSastojci: dijelovi   konoplje (cannabis sativa L. - sazajedničke liste EU)\nMade in EU\nSuvenir za osobno istraživanje, nije za konzumaciju",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/g.b.sourd.png?v=1705183364",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/g.b.sourd.png?v=1705183364",
+      "variants": [
+        {
+          "id": "44409512165618",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 6,
+          "compareAtPriceEur": null,
+          "sku": "0725765722676",
+          "grams": 1,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 6,
+        "max": 6
+      },
+      "categories": [
+        "Frulice"
+      ],
+      "primaryCategory": "Frulice"
+    },
+    {
+      "id": "zen-quartet-set",
+      "shopifyId": "14945365164380",
+      "title": "G.B. Zen Quartet SET!",
+      "handle": "zen-quartet-set",
+      "url": "https://balkanpharm.hr/products/zen-quartet-set",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "\"Prepusti se trenutku uz naš ekskluzivni  CBD set od četiri frulice , pažljivo kreiran da donese ravnotežu, opuštanje i dozu svakodnevnog uživanja. Svaka frulica pruža jedinstven doživljaj, idealan za različite trenutke dana – bilo da započinješ jutro sa mirom, puniš energiju tokom dana ili se opuštaš pred spavanje. Udahni smirenost, izdahni stres i neka  tvoj dan teče u savršenoj harmoniji .\"",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice.png?v=1743497921",
+          "width": 863,
+          "height": 906
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice.png?v=1743497921",
+      "variants": [
+        {
+          "id": "54246406619484",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 18,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 18,
+        "max": 18
+      },
+      "categories": [
+        "Cvjetovi",
+        "Frulice",
+        "Setovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "green-obsession-2g",
+      "shopifyId": "7622053265650",
+      "title": "Green Obsession – miris pokošene trave – 2g",
+      "handle": "green-obsession-2g",
+      "url": "https://balkanpharm.hr/products/green-obsession-2g",
+      "vendor": "BalkanPharm",
+      "productType": "moonrock",
+      "tags": [],
+      "descriptionText": "Green Obsession pakiran je u papirnate vrećice. Pakiranje sadrži 2g osušenog cvijeta industrijske konoplje (Cannabis sativa L.) sa <0,3% THC-a i 90% CBD-a. Proizvod je testiran i analiziran za omjer kanabinoida.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/2_5d754173-c845-4392-ae92-90a4ea5809bb.png?v=1703717344",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/GreenObsession-mirispokosenetrave-uzorak.png?v=1703717344",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/2_5d754173-c845-4392-ae92-90a4ea5809bb.png?v=1703717344",
+      "variants": [
+        {
+          "id": "42935942447346",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "0725765362872",
+          "grams": 2,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 25,
+        "max": 25
+      },
+      "categories": [
+        "Moonrocks"
+      ],
+      "primaryCategory": "Moonrocks"
+    },
+    {
+      "id": "holly-shit-2-g",
+      "shopifyId": "15444998979932",
+      "title": "Holly Shit 2 g",
+      "handle": "holly-shit-2-g",
+      "url": "https://balkanpharm.hr/products/holly-shit-2-g",
+      "vendor": "BalkanPharm",
+      "productType": "",
+      "tags": [],
+      "descriptionText": "CBD industrijska konoplja 2g\nCvijet konoplje (sa zajedničke liste EU)\nTHC < 0,2%\nCBD 10%-15%\nBez psihoaktivnih učinaka!",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/shit.png?v=1771427157",
+          "width": 1820,
+          "height": 2921
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/shit.png?v=1771427157",
+      "variants": [
+        {
+          "id": "56761479168348",
+          "title": "Default Title",
+          "available": false,
+          "priceEur": 5,
+          "compareAtPriceEur": null,
+          "sku": null,
+          "grams": 0,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": false,
+      "price": {
+        "currency": "EUR",
+        "min": 5,
+        "max": 5
+      },
+      "categories": [],
+      "primaryCategory": null
+    },
+    {
+      "id": "ice-rock-2g",
+      "shopifyId": "7622053953778",
+      "title": "Ice Rock – ledene arome – 2g",
+      "handle": "ice-rock-2g",
+      "url": "https://balkanpharm.hr/products/ice-rock-2g",
+      "vendor": "BalkanPharm",
+      "productType": "moonrock",
+      "tags": [],
+      "descriptionText": "Ice Rock pakiran je u papirnate vrećice. Pakiranje sadrži 2g osušenog cvijeta industrijske konoplje (Cannabis sativa L.) sa <0,2% THC-a i 90% CBD-a. Proizvod je testiran i analiziran za omjer kanabinoida.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Dizajnbeznaslova_11.png?v=1703720543",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/icerock-uzorak.png?v=1703720543",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Dizajnbeznaslova_11.png?v=1703720543",
+      "variants": [
+        {
+          "id": "42935944610034",
+          "title": "Default Title",
+          "available": false,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "0725765362865",
+          "grams": 2,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": false,
+      "price": {
+        "currency": "EUR",
+        "min": 25,
+        "max": 25
+      },
+      "categories": [
+        "Moonrocks"
+      ],
+      "primaryCategory": "Moonrocks"
+    },
+    {
+      "id": "kopika-samo-kopika-vocni-caj-50g",
+      "shopifyId": "14854466240860",
+      "title": "Kopika, samo Kopika!- voćni čaj 50g",
+      "handle": "kopika-samo-kopika-vocni-caj-50g",
+      "url": "https://balkanpharm.hr/products/kopika-samo-kopika-vocni-caj-50g",
+      "vendor": "BalkanPharm",
+      "productType": "cbd tea",
+      "tags": [],
+      "descriptionText": "Specifikacije: THC: <0.3%  CBD: >15%\nSastav:  breskva, marelica, kruška, jabuka, šipak, hibiskus, korica slatke naranče, korica limuna, list Cannabis sative (sorte Kompolti, Silvana, Finola)\nNačin pripreme:    15-20 g preliti s 1 L vrele vode, ostaviti poklopljeno 10-12 minuta.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/kopika50g.png?v=1737404419",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/kopika50g.png?v=1737404419",
+      "variants": [
+        {
+          "id": "53838572880220",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 20,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 50,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 20,
+        "max": 20
+      },
+      "categories": [
+        "Čajevi"
+      ],
+      "primaryCategory": "Čajevi"
+    },
+    {
+      "id": "ljimun",
+      "shopifyId": "7561173270770",
+      "title": "Ljimun – citrusne note – 2g/6g",
+      "handle": "ljimun",
+      "url": "https://balkanpharm.hr/products/ljimun",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Ljimun predstavlja snažan spoj citrusnih nota. Stvoren za one kojima je potrebna iznimna koncentracija i fokus u toku dana.\nOvi cvjetovi potiču iz pažljivo uzgojenih konoplja, biranih zbog njihove visoke koncentracije CBD-a i minimalnog udjela THC-a, čime se osigurava da se korisnici mogu osjećati opušteno i uravnoteženo, bez ikakvih psihoaktivnih efekata.\nOvaj proizvod je certificirana sorta konoplje navedena u EU katalogu.\nMože sadržavati tragove do <0,2% THC-a i 10% - 15% CBD-a.  Dodatni naziv služi samo u promotivne svrhe.\nČuvati izvan dohvata djece\nZabranjeno za osobe mlađe od 18 godina\nLjimun pakiran je u papirnate vrećice. Pakiranje sadrži 2g/6g osušenog cvijeta industrijske konoplje (Cannabis sativa L.). Postupak skidanja lišća (trimanja) sa cvijeta je obavljen ručno. Proizvod je testiran i analiziran za omjer kanabinoida.\nMade in: EU\nNaš CBD cvijet je sirovina i nije namijenjen za konzumaciju i pušenje. Prodaje se isključivo kao suvenir.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/15.png?v=1704394431",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_3_6cfbc283-2e1c-43df-a46d-0282bb42bbed.png?v=1704395351",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/ljimun.jpg?v=1704395351",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/15.png?v=1704394431",
+      "variants": [
+        {
+          "id": "42484494729458",
+          "title": "2g",
+          "available": true,
+          "priceEur": 10,
+          "compareAtPriceEur": null,
+          "sku": "0764460713480",
+          "grams": 2,
+          "option1": "2g",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "42484494762226",
+          "title": "6g",
+          "available": true,
+          "priceEur": 30,
+          "compareAtPriceEur": null,
+          "sku": "0764460713497",
+          "grams": 6,
+          "option1": "6g",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 10,
+        "max": 30
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "mix-25g",
+      "shopifyId": "15351216800092",
+      "title": "Mix 25g",
+      "handle": "mix-25g",
+      "url": "https://balkanpharm.hr/products/mix-25g",
+      "vendor": "BalkanPharm",
+      "productType": "",
+      "tags": [],
+      "descriptionText": "Mješavina 12 sorti CBG cvijeta, sve sa EU liste.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Mix25g.jpg?v=1767886049",
+          "width": 3000,
+          "height": 4000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Mix25g.jpg?v=1767886049",
+      "variants": [
+        {
+          "id": "56236982370652",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 31.25,
+          "compareAtPriceEur": null,
+          "sku": null,
+          "grams": 25,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 31.25,
+        "max": 31.25
+      },
+      "categories": [],
+      "primaryCategory": null
+    },
+    {
+      "id": "mix-50g",
+      "shopifyId": "15351234920796",
+      "title": "Mix 50g",
+      "handle": "mix-50g",
+      "url": "https://balkanpharm.hr/products/mix-50g",
+      "vendor": "BalkanPharm",
+      "productType": "",
+      "tags": [],
+      "descriptionText": "Mješavina 12 vrsti CBG cvijeta, sve s EU liste",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Mix50g.jpg?v=1767885973",
+          "width": 3000,
+          "height": 4000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Mix50g.jpg?v=1767885973",
+      "variants": [
+        {
+          "id": "56237140705628",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 62.5,
+          "compareAtPriceEur": null,
+          "sku": null,
+          "grams": 0,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 62.5,
+        "max": 62.5
+      },
+      "categories": [],
+      "primaryCategory": null
+    },
+    {
+      "id": "caj-mocni-vocni-duh",
+      "shopifyId": "7561180840178",
+      "title": "Moćni Voćni Duh – voćni čaj – tropske note – 50/100g",
+      "handle": "caj-mocni-vocni-duh",
+      "url": "https://balkanpharm.hr/products/caj-mocni-vocni-duh",
+      "vendor": "BalkanPharm",
+      "productType": "cbd tea",
+      "tags": [],
+      "descriptionText": "Specifikacije: THC: <0.3%  CBD: >15%\nSastav:  jabuka, šipak, papaja, ananas, grožđe, jagoda, malina, korica naranče, hibiskus, bourbon vanilija, list Cannabis sative (sorte Kompolti, Silvana, Finola)\nNačin pripreme:  15-20 g preliti s 1 L vrele vode, ostaviti poklopljeno 10-12 minuta",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/mocnivocniduh100g.png?v=1708463377",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/6.png?v=1708463377",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/MocniVocniDuh.jpg?v=1708463302",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/mocnivocniduh100g.png?v=1708463377",
+      "variants": [
+        {
+          "id": "44425371910386",
+          "title": "50",
+          "available": true,
+          "priceEur": 15,
+          "compareAtPriceEur": null,
+          "sku": "0745178626361",
+          "grams": 50,
+          "option1": "50",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "44425370304754",
+          "title": "100",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "0725765722645",
+          "grams": 100,
+          "option1": "100",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 15,
+        "max": 25
+      },
+      "categories": [
+        "Čajevi"
+      ],
+      "primaryCategory": "Čajevi"
+    },
+    {
+      "id": "my-name-is-wish-vocni-caj-50g",
+      "shopifyId": "14854464405852",
+      "title": "My name is WIsh- voćni čaj 50g",
+      "handle": "my-name-is-wish-vocni-caj-50g",
+      "url": "https://balkanpharm.hr/products/my-name-is-wish-vocni-caj-50g",
+      "vendor": "BalkanPharm",
+      "productType": "cbd tea",
+      "tags": [],
+      "descriptionText": "Specifikacije: THC: <0.3%  CBD: >15%\nSastav:  višnja, hibiskus, jabuka, šipak, korica slatke naranče, korica limuna, list Cannabis sative (sorte Kompolti, Silvana, Finola)\nNačin pripreme:    15-20 g preliti s 1 L vrele vode, ostaviti poklopljeno 10-12 minuta.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/wish50g.png?v=1737404134",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/wish50g.png?v=1737404134",
+      "variants": [
+        {
+          "id": "53838561182044",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 20,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 50,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 20,
+        "max": 20
+      },
+      "categories": [
+        "Čajevi"
+      ],
+      "primaryCategory": "Čajevi"
+    },
+    {
+      "id": "mystery-set",
+      "shopifyId": "8757176893788",
+      "title": "Mystery set",
+      "handle": "mystery-set",
+      "url": "https://balkanpharm.hr/products/mystery-set",
+      "vendor": "BalkanPharm",
+      "productType": "",
+      "tags": [],
+      "descriptionText": "Upustite se u avanturu kao nijedna druga s našim ekskluzivnim Mystery Setom!\nZaronite u nepoznato i otkrijte riznicu iznenađenja koja čekaju samo na vas.\nŠto je unutra? To je dio magije!\nMali set:\n1x cvijet 2g\n2x frulice\n1x čaj 50g\nVeliki set:\n1x cvijet 6g\n4x frulice\n1x čaj 100g\nSvaki je predmet pažljivo odabran kako bi potaknuo radost i znatiželju.\nBilo da se častite ili tražite savršen dar, naš Mystery Set obećava nezaboravno iskustvo sa svakim otkrivanjem.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/mysteryset_8.png?v=1708102996",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/mysteryset_8.png?v=1708102996",
+      "variants": [
+        {
+          "id": "47674201801052",
+          "title": "Mali",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "Mali",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "47674201833820",
+          "title": "Velki",
+          "available": true,
+          "priceEur": 55,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "Velki",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 25,
+        "max": 55
+      },
+      "categories": [
+        "Setovi"
+      ],
+      "primaryCategory": "Setovi"
+    },
+    {
+      "id": "artemisia-annua",
+      "shopifyId": "8725531853148",
+      "title": "N.1. Tinktura Artemisia annua (slatki pelin)",
+      "handle": "artemisia-annua",
+      "url": "https://balkanpharm.hr/products/artemisia-annua",
+      "vendor": "BalkanPharm",
+      "productType": "",
+      "tags": [
+        "N.1."
+      ],
+      "descriptionText": "Artemisia annua (slatki pelin) biljka je koja kroz povijest nudi brojne prednosti u    zaštiti protiv virusa i infekcija, te povećanju imuniteta.\nTinktura slatkog pelina (artemisia annua) u najnovijim znanstvenim istraživanjima se pokazala iznimno djelotvorna kod širokog spektra karcinoma, posebno kod onih najagresivnijih: leukemije, raka crijeva, pluća i dojke, no također pomaže kod melanoma, raka jajnika, tumora na mozgu i karcinoma prostate.\nTinktura se brzo apsorbira u tijelu i lako uzima. Tinkture dolaze u malim bočicama pa su prikladne za nošenje sa sobom gdje god idete, a u alkoholu ima očuvane ekstrakte.\nNaša tinktura se čuva u adekvatnim bočicama koje ne propuštaju svjetlost i time ostaju sačuvane sve vrijednosti proizvoda.  Tinkture su vrlo stabilne, ne trebate ih držati u frižideru i mogu izdržati do tri godine ili duže.\nDa bi pripremili dozu morate samo brojati kapi.\nTinktura se koristi tako da je umutite s tekućinom, dodajete   2 kapi na 10 kila .   Primjer ako imate 70 kila dodat će te 14 kapi\nZbog alkohola u tinkturi ne preporuča se djeci i jetrenim bolesnicima.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/tinktura_3.png?v=1706212099",
+          "width": 1080,
+          "height": 1080
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/tinktura_3.png?v=1706212099",
+      "variants": [
+        {
+          "id": "47585550270812",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 60,
+          "compareAtPriceEur": null,
+          "sku": "0764460713435",
+          "grams": 0,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 60,
+        "max": 60
+      },
+      "categories": [
+        "Ostalo"
+      ],
+      "primaryCategory": "Ostalo"
+    },
+    {
+      "id": "pink-bitch-2g",
+      "shopifyId": "7622054248690",
+      "title": "Pink Bitch – aroma jagoda – 2g",
+      "handle": "pink-bitch-2g",
+      "url": "https://balkanpharm.hr/products/pink-bitch-2g",
+      "vendor": "BalkanPharm",
+      "productType": "moonrock",
+      "tags": [],
+      "descriptionText": "Pink Bitch pakiran je u papirnate vrećice. Pakiranje sadrži 2g osušenog cvijeta industrijske konoplje (Cannabis sativa L.) sa <0,2% THC-a i 90% CBD-a. Proizvod je testiran i analiziran za omjer kanabinoida.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/1_2bbaf3b6-b15c-4276-99d3-1e4f6d1cac84.png?v=1703717293",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/pinkbitch-uzorak.png?v=1703717293",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/1_2bbaf3b6-b15c-4276-99d3-1e4f6d1cac84.png?v=1703717293",
+      "variants": [
+        {
+          "id": "42935946313970",
+          "title": "Default Title",
+          "available": false,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "0725765362858",
+          "grams": 2,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": false,
+      "price": {
+        "currency": "EUR",
+        "min": 25,
+        "max": 25
+      },
+      "categories": [
+        "Moonrocks"
+      ],
+      "primaryCategory": "Moonrocks"
+    },
+    {
+      "id": "premium-cbd-pasta",
+      "shopifyId": "14765992345948",
+      "title": "Premium CBD Pasta",
+      "handle": "premium-cbd-pasta",
+      "url": "https://balkanpharm.hr/products/premium-cbd-pasta",
+      "vendor": "BalkanPharm",
+      "productType": "CBD Ulje",
+      "tags": [],
+      "descriptionText": "Premium CBD pasta, 100 jedinica punog spektra (Canabis sativa L- sa zajedničke liste EU)\nCBD pasta je koncentrirani oblik kanabidiole (CBD) dobiven iz biljke konoplje. Za razliku od drugih CBD proizvoda poput ulja ili tinkture,      CBD pasta obično je gušća i visoko koncentrirana,      što čini moćnu opciju za one koji traže      intenzivno CBD iskustvo      .\nOva pasts sadrži visoku koncentraciju CBD-a, kao i druge korisne kanabinoide, terpene i fitonutrijente, koji djeluju zajedno u onome što je poznato kao \"efekt okruženja\" kako bi se poboljšale terapeutske prednosti.\nKako konzumirati?\nCBD pastu možete konzumirati u malim dozama,      obično istiskivanjem malog dijela na prst, stavljanjem izravno pod jezik ili miješanjem u hranu ili piće.      Doziranje ovisi o koncentraciji CBD-a i individualnim potrebama.\nCBD - 48,27\nCBG- 3,44\nTHC-0,22",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/cbpasta.png?v=1731592792",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/cbpasta.png?v=1731592792",
+      "variants": [
+        {
+          "id": "53449589162332",
+          "title": "Default Title",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "Default Title",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 25,
+        "max": 25
+      },
+      "categories": [
+        "CBD Ulje"
+      ],
+      "primaryCategory": "CBD Ulje"
+    },
+    {
+      "id": "caj-proljetni-snovi",
+      "shopifyId": "7561180053746",
+      "title": "Proljetni Snovi – voćni čaj – opore note – 50/100g",
+      "handle": "caj-proljetni-snovi",
+      "url": "https://balkanpharm.hr/products/caj-proljetni-snovi",
+      "vendor": "BalkanPharm",
+      "productType": "cbd tea",
+      "tags": [],
+      "descriptionText": "Specifikacije: THC: <0.3%  CBD: >15%\nSastav:  dinja, jabuka, papaja, breskva, ananas, šipak, cvijet plavog različka, list Cannabis sative (sorte Kompolti, Silvana, Finola)\nNačin pripreme : 15-20 g preliti s 1 L vrele vode, ostaviti poklopljeno 10-12 minuta",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/1_a3e4d2d5-e607-4fc0-be7a-14d4f2ccdbb4.png?v=1700738103",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/ProljetniSnovi.jpg?v=1700738103",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/1_a3e4d2d5-e607-4fc0-be7a-14d4f2ccdbb4.png?v=1700738103",
+      "variants": [
+        {
+          "id": "44425373548786",
+          "title": "50",
+          "available": true,
+          "priceEur": 15,
+          "compareAtPriceEur": null,
+          "sku": "0745178626378",
+          "grams": 50,
+          "option1": "50",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "44425373188338",
+          "title": "100",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "0725765722614",
+          "grams": 100,
+          "option1": "100",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 15,
+        "max": 25
+      },
+      "categories": [
+        "Čajevi"
+      ],
+      "primaryCategory": "Čajevi"
+    },
+    {
+      "id": "red-boobs",
+      "shopifyId": "7561173926130",
+      "title": "Red Boobs – aroma trešnje – 2g/6g",
+      "handle": "red-boobs",
+      "url": "https://balkanpharm.hr/products/red-boobs",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Red Boobs svojom voćnom aromom trešnje predstavlja pravi izbor za one koji se žele opustiti i uživati u trenutcima. Uzdignite svoje izraze ljubavi uz naš proizvod koji je pomno dizajniran da osvoji srca i stvori nezaboravne trenutke.\nOvi cvjetovi potiču iz pažljivo uzgojenih konoplja, biranih zbog njihove visoke koncentracije CBD-a i minimalnog udjela THC-a, čime se osigurava da se korisnici mogu osjećati opušteno i uravnoteženo, bez ikakvih psihoaktivnih efekata.\nOvaj proizvod je certificirana sorta konoplja navedenoga u EU katalogu.\nMože sadržavati tragove do   <0,2% THC-a i 10% - 15% CBD-a.\nDodatni naziv služi samo u promotivne svrhe.\nČuvati izvan dohvata djece\nZabranjeno za osobe mlađe od 18 godina\nRed Boobs pakiran je u papirnate vrećice. Pakiranje sadrži 2g/6g osušenog cvijeta industrijske konoplje (Cannabis sativa L.). Postupak skidanja lišća (trimanja) sa cvijeta je obavljen ručno. Proizvod je testiran i analiziran za omjer kanabinoida.\nMade in: EU\nNaš CBD cvijet je sirovina i nije namijenjen za konzumaciju i pušenje. Prodaje se isključivo kao suvenir.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_4.png?v=1704326619",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/redboobs6g.png?v=1705793698",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/redboobs.jpg?v=1705793698",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_4.png?v=1704326619",
+      "variants": [
+        {
+          "id": "42484512260338",
+          "title": "2g",
+          "available": true,
+          "priceEur": 15,
+          "compareAtPriceEur": null,
+          "sku": "0745178938365",
+          "grams": 2,
+          "option1": "2g",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "42484512325874",
+          "title": "6g",
+          "available": true,
+          "priceEur": 45,
+          "compareAtPriceEur": null,
+          "sku": "0764460713398",
+          "grams": 6,
+          "option1": "6g",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 15,
+        "max": 45
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "sexy-edi-2g",
+      "shopifyId": "7880399585522",
+      "title": "Sexy Edi - 2g/6g",
+      "handle": "sexy-edi-2g",
+      "url": "https://balkanpharm.hr/products/sexy-edi-2g",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Sexy Edi će Vas svojom snagom odvesti u svijet u kojem se želite naći nakon dugog i napornog dana. Dopustite da Vas njegova tajanstvenost zaintrigira!!\nOvi cvjetovi potiču iz pažljivo uzgojenih konoplja, biranih zbog njihove visoke koncentracije CBD-a i minimalnog udjela THC-a, čime se osigurava da se korisnici mogu osjećati opušteno i uravnoteženo, bez ikakvih psihoaktivnih efekata.\nOvaj proizvod je certificirana sorta konoplje navedena u EU katalogu.\nMože sadržavati tragove do   <0,2% THC-a i 10% - 15% CBD-a.\nDodatni naziv služi samo u promotivne svrhe.\nČuvati izvan dohvata djece\nZabranjeno za osobe mlađe od 18 godina\nSexy Edi pakiran je u papirnate vrećice. Pakiranje sadrži 2g/6g osušenog cvijeta industrijske konoplje (Cannabis sativa L.). Postupak skidanja lišća (trimanja) sa cvijeta je obavljen ručno. Proizvod je testiran i analiziran za omjer kanabinoida.\nMade in: EU\nNaš CBD cvijet je sirovina i nije namijenjen za konzumaciju i pušenje. Prodaje se isključivo kao suvenir.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_11.png?v=1704842909",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/sexyedi6g.png?v=1705793729",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/SexyEdi.jpg?v=1705793729",
+          "width": 4194,
+          "height": 2790
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_11.png?v=1704842909",
+      "variants": [
+        {
+          "id": "44368504520946",
+          "title": "2g",
+          "available": true,
+          "priceEur": 10,
+          "compareAtPriceEur": null,
+          "sku": "0764460713503",
+          "grams": 2,
+          "option1": "2g",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "44368504553714",
+          "title": "6g",
+          "available": true,
+          "priceEur": 30,
+          "compareAtPriceEur": null,
+          "sku": "0764460713510",
+          "grams": 2,
+          "option1": "6g",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 10,
+        "max": 30
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "sweet-pine-kush",
+      "shopifyId": "7561175859442",
+      "title": "Sweet Pine Kush – slatkasta aroma – 5g/10g",
+      "handle": "sweet-pine-kush",
+      "url": "https://balkanpharm.hr/products/sweet-pine-kush",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Sweet Pine Kush je savršen izbor za sve koji se žele opustiti nakon dugog i napornog dana. Tajanstveni mix slatkastih aroma opustit će svojom jačinom i najnapetije umove.\nOvaj proizvod je certificirana sorta konoplja navedenoga u EU katalogu.\nMože sadržavati tragove do   <0,2% THC-a i 10% - 15% CBD-a.\nDodatni naziv služi samo u promotivne svrhe.\nČuvati izvan dohvata djece\nZabranjeno za osobe mlađe od 18 godina\nSweet Pine Kush pakiran je u papirnate vrećice. Pakiranje sadrži 5g/10g osušenog cvijeta industrijske konoplje (Cannabis sativa L.). Postupak skidanja lišća (trimanja) sa cvijeta je obavljen ručno. Proizvod je testiran i analiziran za omjer kanabinoida.\nMade in: EU\nNaš CBD cvijet je sirovina i nije namijenjen za konzumaciju i pušenje. Prodaje se isključivo kao suvenir.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_21.png?v=1705686828",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_3.png?v=1705686828",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/SweetPineKush.jpg?v=1705686828",
+          "width": 2000,
+          "height": 2000
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_21.png?v=1705686828",
+      "variants": [
+        {
+          "id": "42484529627378",
+          "title": "5g",
+          "available": true,
+          "priceEur": 20,
+          "compareAtPriceEur": 0,
+          "sku": "0725765362827",
+          "grams": 5,
+          "option1": "5g",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "42484529660146",
+          "title": "10g",
+          "available": true,
+          "priceEur": 40,
+          "compareAtPriceEur": null,
+          "sku": "0725765362834",
+          "grams": 10,
+          "option1": "10g",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 20,
+        "max": 40
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "caj-topla-crvena-rapsodija",
+      "shopifyId": "7561180283122",
+      "title": "Topla Crvena Rapsodija – voćni čaj – rapsodija okusa – 50/100g",
+      "handle": "caj-topla-crvena-rapsodija",
+      "url": "https://balkanpharm.hr/products/caj-topla-crvena-rapsodija",
+      "vendor": "BalkanPharm",
+      "productType": "cbd tea",
+      "tags": [],
+      "descriptionText": "Specifikacije: THC: <0.3%  CBD: >15%\nSastav : crvena ribizla, crna ribizla, kupina, bazga, grožđe, hibiskus, latice ruže, list Cannabis sative (sorte Kompolti, Silvana, Finola)\nNačin pripreme:  15-20 g preliti s 1 L vrele vode, ostaviti poklopljeno 10-12 minuta",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/toplacrvenarapsodija100g.png?v=1708463421",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/2_660fc5c7-ca37-469c-8a21-2d8e969a44b6.png?v=1708463421",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/ToplaCrvenaRapsodija.jpg?v=1708463421",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/toplacrvenarapsodija100g.png?v=1708463421",
+      "variants": [
+        {
+          "id": "44425374367986",
+          "title": "50",
+          "available": true,
+          "priceEur": 15,
+          "compareAtPriceEur": null,
+          "sku": "0745178626408",
+          "grams": 50,
+          "option1": "50",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "44425374007538",
+          "title": "100",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": null,
+          "sku": "0725765362896",
+          "grams": 100,
+          "option1": "100",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 15,
+        "max": 25
+      },
+      "categories": [
+        "Čajevi"
+      ],
+      "primaryCategory": "Čajevi"
+    },
+    {
+      "id": "tri-colore",
+      "shopifyId": "7561165144306",
+      "title": "Tri Colore – mix slatkastih aroma - 2g/6g",
+      "handle": "tri-colore",
+      "url": "https://balkanpharm.hr/products/tri-colore",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Ovaj proizvod je certificirana sorta konoplja navedenoga u EU katalogu.\nMože sadržavati tragove do   <0,2% THC-a i 10% - 15% CBD-a.\nDodatni naziv služi samo u promotivne svrhe.\nČuvati izvan dohvata djece\nZabranjeno za osobe mlađe od 18 godina\nTri Colore pakiran je u papirnate vrećice. Pakiranje sadrži 2g/6g osušenog cvijeta industrijske konoplje (Cannabis sativa L.). Postupak skidanja lišća (trimanja) sa cvijeta je obavljen ručno. Proizvod je testiran i analiziran za omjer kanabinoida.\nMade in: EU\nNaš CBD cvijet je sirovina i nije namijenjen za konzumaciju i pušenje. Prodaje se isključivo kao suvenir.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/tricolore_gen2_2g.png?v=1707145349",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/6_2071a846-7343-484f-b4b3-fbcbe41ac485.png?v=1707145349",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/tricolore-uzorak.png?v=1707145349",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/tricolore_gen2_2g.png?v=1707145349",
+      "variants": [
+        {
+          "id": "42484429422834",
+          "title": "2g",
+          "available": true,
+          "priceEur": 20,
+          "compareAtPriceEur": null,
+          "sku": "0764460713404",
+          "grams": 2,
+          "option1": "2g",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "42484429455602",
+          "title": "6g",
+          "available": true,
+          "priceEur": 60,
+          "compareAtPriceEur": 0,
+          "sku": "0764460713411",
+          "grams": 6,
+          "option1": "6g",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 20,
+        "max": 60
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "caj-vocna-magija",
+      "shopifyId": "7561180479730",
+      "title": "Voćna Magija – voćni čaj – citrusna aroma – 50/100g",
+      "handle": "caj-vocna-magija",
+      "url": "https://balkanpharm.hr/products/caj-vocna-magija",
+      "vendor": "BalkanPharm",
+      "productType": "cbd tea",
+      "tags": [],
+      "descriptionText": "Specifikacije:   THC: <0.3%    CBD: >15%\nSastav:  dinja, jabuka, papaja, breskva, ananas, šipak, cvijet plavog različka, list Cannabis sative (sorte Kompolti, Silvana, Finola)\nNačin pripreme : 15-20 g preliti s 1 L vrele vode, ostaviti poklopljeno 10-12 minuta",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Vocnamagija100g.png?v=1708463448",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/3_e453f5cf-4cd7-45f2-9249-46cee57f63b3.png?v=1708463448",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/VocnaMagija.jpg?v=1708463448",
+          "width": 2048,
+          "height": 2048
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Vocnamagija100g.png?v=1708463448",
+      "variants": [
+        {
+          "id": "44425374990578",
+          "title": "50",
+          "available": true,
+          "priceEur": 15,
+          "compareAtPriceEur": 0,
+          "sku": "0745178626385",
+          "grams": 50,
+          "option1": "50",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "44425374499058",
+          "title": "100",
+          "available": true,
+          "priceEur": 25,
+          "compareAtPriceEur": 0,
+          "sku": "0725765722607",
+          "grams": 100,
+          "option1": "100",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 15,
+        "max": 25
+      },
+      "categories": [
+        "Čajevi"
+      ],
+      "primaryCategory": "Čajevi"
+    },
+    {
+      "id": "cbd-white-queen",
+      "shopifyId": "7561178579186",
+      "title": "White Queen – nježne note – 2g/6g",
+      "handle": "cbd-white-queen",
+      "url": "https://balkanpharm.hr/products/cbd-white-queen",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "White queen je kraljica relaksacije. Nježno umiruje um i pomaže u opuštanju nakon napornog dana. Savršen izbor za mirne večeri.\nOvaj proizvod je certificirana sorta konoplje navedena u EU katalogu.\nMože sadržavati tragove do   <0,3% THC-a i 10% - 15% CBD-a.\nDodatni naziv služi samo u promotivne svrhe.\nČuvati izvan dohvata djece.\nNaš CBD cvijet je sirovina i nije namijenjen za konzumaciju i pušenje.\nProdaje se isključivo kao suvenir.\nZabranjeno za osobe mlađe od 18 godina.\nWhite Queen pakiran je u papirnate vrećice. Pakiranje sadrži 2g/6g osušenog cvijeta industrijske konoplje (Cannabis sativa L.). Postupak skidanja lišća (trimanja) sa cvijeta je obavljen ručno. Proizvod je testiran i analiziran za omjer kanabinoida.\nMade in: EU",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/whitequeen2g.png?v=1710349776",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/xy_1.png?v=1710349776",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/WhiteQueen.jpg?v=1710349776",
+          "width": 3595,
+          "height": 2392
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/whitequeen2g.png?v=1710349776",
+      "variants": [
+        {
+          "id": "42484547092722",
+          "title": "2g",
+          "available": true,
+          "priceEur": 10,
+          "compareAtPriceEur": null,
+          "sku": "0745178626323",
+          "grams": 2,
+          "option1": "2g",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "42484547125490",
+          "title": "6g",
+          "available": true,
+          "priceEur": 30,
+          "compareAtPriceEur": null,
+          "sku": "0745178626330",
+          "grams": 6,
+          "option1": "6g",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 10,
+        "max": 30
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    },
+    {
+      "id": "wish-opustajuce-note-5g-10g",
+      "shopifyId": "14812580643164",
+      "title": "Wish- egzotična nota 5g/10g",
+      "handle": "wish-opustajuce-note-5g-10g",
+      "url": "https://balkanpharm.hr/products/wish-opustajuce-note-5g-10g",
+      "vendor": "BalkanPharm",
+      "productType": "cbd flower",
+      "tags": [],
+      "descriptionText": "Wish je napravljen od pomno biranih  kraljevskih cvijetova , pomiješanih sa  24 vrste odabranih sorti , koje bude najdublje želje i osjećaje.\nPredstavlja kombinaciju oštrih, svježih i blagih drvenastih aroma, s jakim borovim notama koje su istovremeno zemljanje i smolaste. Miris je istovremeno aromatičan i pikantan, te često izaziva osjećaj boravka u suncem okupanom biljnom vrtu ili šumi punoj zimzelenog drveća. Njegova prirodna esencija djeluje i osvježavajuće i opuštajuće, a  aroma je lagana, ali osebujna i često izaziva osjećaj mira.\nOvi cvjetovi potiču iz pažljivo uzgojenih konoplja, biranih zbog njihove visoke koncentracije CBD-a i minimalnog udjela THC-a, čime se osigurava da se korisnici mogu osjećati opušteno i uravnoteženo, bez ikakvih psihoaktivnih efekata.\nOvaj proizvod je certificirana sorta konoplje navedena u EU katalogu.\nMože sadržavati tragove do  <0,3% THC-a i 10% - 15% CBD-a.\nDodatni naziv služi samo u promotivne svrhe.\nČuvati izvan dohvata djece\nZabranjeno za osobe mlađe od 18 godina\nWish je pakiran u papirnate vrećice. Pakiranje sadrži 5g/10g osušenog cvijeta industrijske konoplje (Cannabis sativa L.). Postupak skidanja lišća (trimanja) sa cvijeta je obavljen ručno. Proizvod je testiran i analiziran za omjer kanabinoida.\nMade in: EU\nNaš CBD cvijet je sirovina i nije namijenjen za konzumaciju i pušenje. Prodaje se isključivo kao suvenir.",
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/objavawish10g.png?v=1734454817",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/objavawish5g.png?v=1734454817",
+          "width": 940,
+          "height": 788
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/objavacvijetwish.png?v=1734454817",
+          "width": 940,
+          "height": 788
+        }
+      ],
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/objavawish10g.png?v=1734454817",
+      "variants": [
+        {
+          "id": "53641634283868",
+          "title": "5g",
+          "available": true,
+          "priceEur": 20,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "5g",
+          "option2": null,
+          "option3": null
+        },
+        {
+          "id": "53641634316636",
+          "title": "10g",
+          "available": true,
+          "priceEur": 40,
+          "compareAtPriceEur": null,
+          "sku": "",
+          "grams": 0,
+          "option1": "10g",
+          "option2": null,
+          "option3": null
+        }
+      ],
+      "available": true,
+      "price": {
+        "currency": "EUR",
+        "min": 20,
+        "max": 40
+      },
+      "categories": [
+        "Cvjetovi"
+      ],
+      "primaryCategory": "Cvjetovi"
+    }
+  ],
+  "stats": {
+    "products": 46,
+    "categories": 8,
+    "elapsedMs": 8053
+  }
+}
