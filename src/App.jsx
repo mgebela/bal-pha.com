@@ -8,6 +8,34 @@ const SESSION_MAIN_DISMISSED = 'balpha-newsletter-main-dismissed'
 const SESSION_EXIT_SHOWN = 'balpha-newsletter-exit-shown'
 const DISCOUNT_CODE = 'TEA10'
 const MAIN_POPUP_DELAY_MS = 5000
+const DEMO_STOCK_BOXES_LEFT = 18
+
+const BUNDLE_HERO_IMAGES = [
+  ovajDizeHeroImg,
+  'https://cdn.shopify.com/s/files/1/0631/0448/3570/files/kopika50g.png?v=1737404419',
+  'https://cdn.shopify.com/s/files/1/0631/0448/3570/files/carobnabanana100g_1.png?v=1708464197',
+]
+
+const TESTIMONIALS = [
+  {
+    quote:
+      'Konačno imam miran večernji ritual — smirujući miris, osjećaj prave kvalitete.',
+    author: 'Maja K.',
+    city: 'Split',
+  },
+  {
+    quote:
+      'Jutarnja energija bez „škripanja“. Paket otkrića mi je olakšao odabir — sve na jednom mjestu.',
+    author: 'Ivan P.',
+    city: 'Zagreb',
+  },
+  {
+    quote:
+      'Izbalansirane mješavine. Trojka je idealna ako ne možeš odlučiti za jednu.',
+    author: 'Tea L.',
+    city: 'Rijeka',
+  },
+]
 
 function readStoredNewsletterEmail() {
   try {
@@ -99,6 +127,33 @@ function BalphaLogo({ variant = 'green', className = '' }) {
   )
 }
 
+const TEA_DISCOVERY_BOX_PRODUCT = {
+  id: 'tea-discovery-box',
+  name: 'Paket otkrića — 3 čaja',
+  priceEur: 33,
+  priceMinEur: 33,
+  priceMaxEur: 33,
+  compareAtPriceEur: 47,
+  category: 'Paketi',
+  description: 'Tri odabrane premium mješavine (50 g) — za jutro, dan i noć.',
+  size: '3 × 50 g',
+  imageUrl: null,
+}
+
+const PREMIUM_TEA_DUO_PRODUCT = {
+  id: 'premium-tea-duo',
+  name: 'Premium čajni duo',
+  priceEur: 50,
+  priceMinEur: 50,
+  priceMaxEur: 50,
+  compareAtPriceEur: 55,
+  category: 'Paketi',
+  description: 'Dva velika pakiranja (100 g) za duže uživanje ili dijeljenje.',
+  size: '2 × 100 g',
+  imageUrl:
+    'https://cdn.shopify.com/s/files/1/0631/0448/3570/files/mocnivocniduh100g.png?v=1708463377',
+}
+
 const MANUAL_TEA_EXTRA = [
   {
     id: 'zdrawoo-ovaj-dize-iz-mrtvih-50g',
@@ -145,6 +200,8 @@ const PRODUCTS = [
         imageUrl: p.imageUrl || (p.images && p.images[0]?.src) || null,
       }
     }),
+  TEA_DISCOVERY_BOX_PRODUCT,
+  PREMIUM_TEA_DUO_PRODUCT,
   ...MANUAL_TEA_EXTRA,
 ]
 
@@ -154,6 +211,29 @@ function formatPrice(value) {
     currency: 'EUR',
     minimumFractionDigits: 2,
   })
+}
+
+function PriceCompare({ price, compareAt, className = '' }) {
+  const showCompare = compareAt != null && compareAt > price
+  return (
+    <span className={`bp-price-compare-row ${className}`.trim()}>
+      <span className="bp-price-current">{formatPrice(price)}</span>
+      {showCompare ? (
+        <del className="bp-price-was">{formatPrice(compareAt)}</del>
+      ) : null}
+    </span>
+  )
+}
+
+function StarRating({ rating = 4.8 }) {
+  return (
+    <div className="bp-stars" aria-label={`Ocjena ${rating} od 5`}>
+      <span className="bp-stars-symbols" aria-hidden="true">
+        ★★★★★
+      </span>
+      <span className="bp-stars-value">{rating.toFixed(1)}</span>
+    </div>
+  )
 }
 
 function App() {
@@ -299,7 +379,7 @@ function App() {
       {
         key: 'dan',
         title: 'Dan',
-        subtitle: 'Narančasta kolekcija za fokus i dobar flow.',
+        subtitle: 'Narančasta kolekcija za fokus i dobar ritam.',
         logoVariant: 'orange',
         products: dan,
       },
@@ -314,15 +394,28 @@ function App() {
   }, [filteredProducts])
 
   const cartItems = useMemo(() => {
-    return Object.entries(cart).map(([productId, quantity]) => {
-      const product = PRODUCTS.find((p) => p.id === productId)
-      return {
-        product,
-        quantity,
-        lineTotal: product.priceEur * quantity,
-      }
-    })
+    return Object.entries(cart)
+      .map(([productId, quantity]) => {
+        const product = PRODUCTS.find((p) => p.id === productId)
+        if (!product) return null
+        return {
+          product,
+          quantity,
+          lineTotal: product.priceEur * quantity,
+        }
+      })
+      .filter(Boolean)
   }, [cart])
+
+  function openTeaClubPopup() {
+    setShowExitNewsletter(false)
+    setShowMainNewsletter(true)
+  }
+
+  function addDiscoveryAndOpenCart() {
+    addToCart(TEA_DISCOVERY_BOX_PRODUCT.id)
+    setIsCartOpen(true)
+  }
 
   const cartTotal = useMemo(
     () => cartItems.reduce((sum, item) => sum + item.lineTotal, 0),
@@ -402,16 +495,198 @@ function App() {
       </header>
 
       <main className="bp-main">
-        <section className="bp-hero">
-          <div className="bp-hero-content">
-            <h1>Prirodni CBD čajevi, inspirirani BalkanPharm ponudom</h1>
-            <p>
-              Ova lokalna demo trgovina koristi CBD čajeve i cijene
-              inspirirane webshopom BalkanPharm{' '}
-              <span className="bp-hero-note">
-                (bez pravog plaćanja ili naručivanja).
-              </span>
+        <section className="bp-hero bp-hero-funnel" aria-labelledby="bp-hero-funnel-title">
+          <div className="bp-hero-funnel-layout">
+            <div className="bp-hero-content bp-hero-funnel-copy">
+              <div className="bp-hero-trust-row">
+                <span className="bp-trust-badge">Najprodavanije</span>
+                <span className="bp-trust-badge bp-trust-badge--muted">Ograničena serija</span>
+              </div>
+              <h1 id="bp-hero-funnel-title">Otkrij svoj savršeni čaj</h1>
+              <p className="bp-hero-funnel-sub">
+                Isprobaj 3 premium mješavine i pronađi omiljenu
+              </p>
+              <div className="bp-hero-rating-row">
+                <StarRating rating={4.8} />
+                <span className="bp-hero-rating-caption">Visoke ocjene prvjih kupaca</span>
+              </div>
+              <div className="bp-hero-price-block">
+                <PriceCompare
+                  price={TEA_DISCOVERY_BOX_PRODUCT.priceEur}
+                  compareAt={TEA_DISCOVERY_BOX_PRODUCT.compareAtPriceEur}
+                />
+                <span className="bp-hero-save-pill">Najbolja vrijednost za početak</span>
+              </div>
+              <div className="bp-hero-cta-row">
+                <a className="bp-button-primary bp-hero-funnel-cta" href="#tea-discovery-box">
+                  Uzmi kutiju
+                </a>
+                <a className="bp-button-ghost" href="#tea-discovery-box">
+                  Kupi odmah
+                </a>
+              </div>
+            </div>
+            <div className="bp-hero-bundle" aria-hidden="true">
+              {BUNDLE_HERO_IMAGES.map((src, i) => (
+                <div key={i} className={`bp-hero-bundle-tile bp-hero-bundle-tile--${i}`}>
+                  <img src={src} alt="" loading={i === 0 ? 'eager' : 'lazy'} />
+                </div>
+              ))}
+              <p className="bp-hero-bundle-caption">3 × 50 g · prirodne mješavine</p>
+            </div>
+          </div>
+        </section>
+
+        <section
+          className="bp-featured-discovery"
+          id="tea-discovery-box"
+          aria-labelledby="bp-featured-discovery-title"
+        >
+          <div className="bp-featured-discovery-inner">
+            <div className="bp-featured-discovery-copy">
+              <span className="bp-featured-eyebrow">Istaknuto · Paket otkrića</span>
+              <h2 id="bp-featured-discovery-title">Paket otkrića</h2>
+              <StarRating rating={4.8} />
+              <div className="bp-discovery-prose">
+                <p className="bp-discovery-lead">Ne znaš koji čaj odabrati?</p>
+                <p>Ovo je najlakši način da isprobaš najbolje okuse.</p>
+                <ul className="bp-discovery-list">
+                  <li>Tri različite premium mješavine (po 50 g)</li>
+                  <li>Za opuštanje, energiju ili svakodnevni ritual</li>
+                  <li>Ušteda u odnosu na kupnju pojedinačno</li>
+                  <li>Ograničena dostupnost · manje serije, pažljiviji pristup</li>
+                </ul>
+              </div>
+              <p className="bp-scarcity-inline">
+                <strong>Ograničena zaliha:</strong> u ovoj je seriji ostalo još{' '}
+                {DEMO_STOCK_BOXES_LEFT} kutija (demo brojač).
+              </p>
+              <div className="bp-featured-discovery-actions">
+                <div className="bp-featured-price-row">
+                  <PriceCompare
+                    price={TEA_DISCOVERY_BOX_PRODUCT.priceEur}
+                    compareAt={TEA_DISCOVERY_BOX_PRODUCT.compareAtPriceEur}
+                  />
+                </div>
+                <p className="bp-tea-club-inline">
+                  <button type="button" className="bp-tea-club-link" onClick={openTeaClubPopup}>
+                    🎁 -10% kad se pridružiš našem Tea Clubu
+                  </button>
+                </p>
+                <button
+                  type="button"
+                  className="bp-button-primary"
+                  onClick={() => addToCart(TEA_DISCOVERY_BOX_PRODUCT.id)}
+                >
+                  Uzmi kutiju
+                </button>
+                <a className="bp-featured-scroll-catalog" href="#products">
+                  Pregledaj pojedinačne čajeve
+                </a>
+              </div>
+            </div>
+            <div className="bp-featured-discovery-panel" aria-hidden="true">
+              <div className="bp-featured-discovery-visual">
+                <span className="bp-featured-visual-icon" aria-hidden="true">
+                  🍃
+                </span>
+                <p className="bp-featured-visual-title">Paket otkrića</p>
+                <p className="bp-featured-visual-meta">Jutro · Dan · Noć</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bp-social-proof" aria-labelledby="bp-social-title">
+          <h2 id="bp-social-title" className="bp-section-title">
+            Što ljudi prvo osjete
+          </h2>
+          <div className="bp-social-grid">
+            {TESTIMONIALS.map((t) => (
+              <blockquote key={t.author} className="bp-testimonial">
+                <StarRating rating={5} />
+                <p className="bp-testimonial-quote">"{t.quote}"</p>
+                <footer>
+                  — {t.author}, {t.city}
+                </footer>
+              </blockquote>
+            ))}
+          </div>
+        </section>
+
+        <section className="bp-product-story" aria-labelledby="bp-story-title">
+          <h2 id="bp-story-title" className="bp-section-title">
+            Što dobivaš
+          </h2>
+          <ul className="bp-story-list">
+            <li>
+              <strong>Otkrivanje, a ne nagađanje.</strong> Tri jasna profila da osjetiš koja ti
+              mješavina pristaje uz raspoloženje.
+            </li>
+            <li>
+              <strong>Kvaliteta koju okusiš.</strong> Prirodno aromatični sastojci, uravnoteženo —
+              bez „glasnog“ ili umjetnog dojma.
+            </li>
+            <li>
+              <strong>Miran ritual.</strong> Kratko skuhanje, dugi izdisaj — za male trenutke u
+              danu.
+            </li>
+          </ul>
+        </section>
+
+        <section className="bp-urgency-strip" role="status">
+          <p>
+            <strong>Ograničena zaliha.</strong> Paketi brzo nestaju — kad ova mikro-serija ode,
+            sljedeće punjenje prati prirodni ritam, ne skladišni sat.
+          </p>
+        </section>
+
+        <section className="bp-upsell-duo" aria-labelledby="bp-duo-title">
+          <div className="bp-upsell-duo-inner">
+            <div className="bp-upsell-duo-copy">
+              <span className="bp-featured-eyebrow">Više za ljubitelje</span>
+              <h2 id="bp-duo-title">Premium čajni duo</h2>
+              <p className="bp-upsell-tagline">Želiš više? Prijeđi na veća pakiranja.</p>
+              <p>
+                Dva izdašna pakiranja od 100 g za sporije ispijanje, dijeljenje ili zalihu kod kuće.
+                I dalje jasno, i dalje premium — samo više onoga što već voliš.
+              </p>
+              <div className="bp-upsell-price">
+                <PriceCompare
+                  price={PREMIUM_TEA_DUO_PRODUCT.priceEur}
+                  compareAt={PREMIUM_TEA_DUO_PRODUCT.compareAtPriceEur}
+                />
+              </div>
+              <button
+                type="button"
+                className="bp-button-primary"
+                onClick={() => addToCart(PREMIUM_TEA_DUO_PRODUCT.id)}
+              >
+                Dodaj premium duo
+              </button>
+            </div>
+            {PREMIUM_TEA_DUO_PRODUCT.imageUrl && (
+              <div className="bp-upsell-duo-media">
+                <img src={PREMIUM_TEA_DUO_PRODUCT.imageUrl} alt="" loading="lazy" />
+              </div>
+            )}
+          </div>
+        </section>
+
+        <section className="bp-cta-repeat" aria-labelledby="bp-cta-repeat-title">
+          <div className="bp-cta-repeat-inner">
+            <h2 id="bp-cta-repeat-title">Kad god ti odgovara</h2>
+            <p className="bp-cta-repeat-prices">
+              Uzmi paket otkrića po{' '}
+              <PriceCompare
+                price={TEA_DISCOVERY_BOX_PRODUCT.priceEur}
+                compareAt={TEA_DISCOVERY_BOX_PRODUCT.compareAtPriceEur}
+              />{' '}
+              — nježan ulaz u punu ponudu ispod.
             </p>
+            <button type="button" className="bp-button-primary" onClick={addDiscoveryAndOpenCart}>
+              Uzmi kutiju · {formatPrice(TEA_DISCOVERY_BOX_PRODUCT.priceEur)}
+            </button>
           </div>
         </section>
 
@@ -517,13 +792,13 @@ function App() {
             </button>
             <p className="bp-newsletter-kicker">Tea Club</p>
             <h2 id="bp-newsletter-main-title" className="bp-newsletter-title">
-              🎁 Uzmi -10% na prvu narudžbu
+              Uzmi -10% na prvu narudžbu
             </h2>
             <p className="bp-newsletter-subtitle">
-              pristup ekskluzivnim blendovima i posebnim ponudama
+              + ekskluzivne mješavine i posebne ponude
             </p>
             <p className="bp-newsletter-lead">
-              Pridruži se našem Tea Clubu i budi prvi koji isprobava nove okuse.
+              Pridruži se Tea Clubu — smirene obavijesti, bez nereda. Odjavi se kad god želiš.
             </p>
             <form className="bp-newsletter-form" onSubmit={submitNewsletter}>
               <label className="bp-newsletter-label" htmlFor="bp-newsletter-email-main">
@@ -548,11 +823,11 @@ function App() {
                 </p>
               )}
               <button type="submit" className="bp-newsletter-cta">
-                👉 Želim -10%
+                Otključaj moj popust
               </button>
             </form>
             <p className="bp-newsletter-footnote">
-              Bez spama. Samo dobre ponude i još bolji čaj.
+              Bez spama — samo poneka dobra vijest i pogodnosti za ljubitelje čaja.
             </p>
           </div>
         </div>
@@ -776,6 +1051,30 @@ function App() {
       <footer className="bp-footer">
         <span>© {new Date().getFullYear()} demo prikaz čajeva</span>
       </footer>
+
+      <div className="bp-sticky-mobile" role="region" aria-label="Brza narudžba">
+        <button
+          type="button"
+          className="bp-sticky-mobile-primary"
+          onClick={addDiscoveryAndOpenCart}
+        >
+          <span>Uzmi kutiju</span>
+          <span className="bp-sticky-mobile-amount">
+            {formatPrice(TEA_DISCOVERY_BOX_PRODUCT.priceEur)}
+          </span>
+        </button>
+        <button
+          type="button"
+          className="bp-sticky-mobile-cart"
+          onClick={() => setIsCartOpen(true)}
+          aria-label="Otvori košaricu"
+        >
+          🛒
+          {totalItems > 0 ? (
+            <span className="bp-sticky-mobile-count">{totalItems}</span>
+          ) : null}
+        </button>
+      </div>
     </div>
   )
 }
