@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import catalog from './assets/balkanpharm-catalog.json'
+import ovajDizeHeroImg from './assets/ovaj-dize-iz-mrtvih.png'
 
 const NEWSLETTER_STORAGE_KEY = 'balpha-tea-club-email'
 const SESSION_MAIN_DISMISSED = 'balpha-newsletter-main-dismissed'
@@ -98,37 +99,54 @@ function BalphaLogo({ variant = 'green', className = '' }) {
   )
 }
 
-const PRODUCTS = catalog.products
-  .filter((p) => p.productType === 'cbd tea')
-  .map((p) => {
-    const primaryCategory =
-      p.primaryCategory || p.productType || (p.categories && p.categories[0]) || 'Čajevi'
+const MANUAL_TEA_EXTRA = [
+  {
+    id: 'zdrawoo-ovaj-dize-iz-mrtvih-50g',
+    name: 'Ovaj diže iz mrtvih – voćni čaj – 50g',
+    priceEur: 15,
+    priceMinEur: 15,
+    priceMaxEur: 15,
+    category: 'Čajevi',
+    description: 'THC: <0,3% · CBD: >15%.',
+    size: '50g',
+    imageUrl: ovajDizeHeroImg,
+  },
+]
 
-    const description =
-      p.descriptionText?.split('\n').filter(Boolean)[0] ||
-      'CBD čaj iz BalkanPharm ponude.'
+const PRODUCTS = [
+  ...catalog.products
+    .filter((p) => p.productType === 'cbd tea')
+    .map((p) => {
+      const primaryCategory =
+        p.primaryCategory || p.productType || (p.categories && p.categories[0]) || 'Čajevi'
 
-    const sizeVariant = p.variants?.[0]
-    const size =
-      sizeVariant?.option1 && !/default title/i.test(sizeVariant.option1)
-        ? sizeVariant.option1
-        : ''
+      const description =
+        p.descriptionText?.split('\n').filter(Boolean)[0] ||
+        'CBD čaj iz BalkanPharm ponude.'
 
-    const basePriceMin = p.price?.min ?? 0
-    const basePriceMax = p.price?.max ?? basePriceMin
+      const sizeVariant = p.variants?.[0]
+      const size =
+        sizeVariant?.option1 && !/default title/i.test(sizeVariant.option1)
+          ? sizeVariant.option1
+          : ''
 
-    return {
-      id: p.id,
-      name: p.title,
-      priceEur: basePriceMin,
-      priceMinEur: basePriceMin,
-      priceMaxEur: basePriceMax,
-      category: primaryCategory,
-      description,
-      size,
-      imageUrl: p.imageUrl || (p.images && p.images[0]?.src) || null,
-    }
-  })
+      const basePriceMin = p.price?.min ?? 0
+      const basePriceMax = p.price?.max ?? basePriceMin
+
+      return {
+        id: p.id,
+        name: p.title,
+        priceEur: basePriceMin,
+        priceMinEur: basePriceMin,
+        priceMaxEur: basePriceMax,
+        category: primaryCategory,
+        description,
+        size,
+        imageUrl: p.imageUrl || (p.images && p.images[0]?.src) || null,
+      }
+    }),
+  ...MANUAL_TEA_EXTRA,
+]
 
 function formatPrice(value) {
   return value.toLocaleString('hr-HR', {
@@ -255,12 +273,13 @@ function App() {
     ]
 
     const dayMatchers = [
-      { label: 'Proljetni snovi', matchTerms: ['proljetni snovi'] },
       { label: 'Čarobna banana', matchTerms: ['carobna banana'] },
+      { label: 'Proljetni snovi', matchTerms: ['proljetni snovi'] },
       { label: 'Voćna magija', matchTerms: ['vocna magija'] },
     ]
 
     const nightMatchers = [
+      { label: 'Moćni Voćni Duh', matchTerms: ['mocni vocni duh'] },
       { label: 'Topla crvena rapsodija', matchTerms: ['topla crvena rapsodija'] },
       { label: 'Wish', matchTerms: ['my name is wish'] },
     ]
@@ -421,7 +440,7 @@ function App() {
                   </header>
 
                   <div className="bp-product-grid">
-                    {group.products.slice(0, 2).map((product) => (
+                    {group.products.slice(0, 3).map((product) => (
                       <article key={product.id} className="bp-product-card">
                         <div className="bp-product-badge">ČAJ</div>
                         {product.imageUrl && (
@@ -435,7 +454,9 @@ function App() {
                         )}
                         <div className="bp-product-body">
                           <h3 className="bp-product-name">{product.name}</h3>
-                          <p className="bp-product-desc">{product.description}</p>
+                          {product.description?.trim() ? (
+                            <p className="bp-product-desc">{product.description}</p>
+                          ) : null}
                           <div className="bp-product-meta">
                             {product.size && (
                               <span className="bp-product-size">{product.size}</span>
@@ -742,16 +763,8 @@ function App() {
                     Plaćanje (demo)
                   </button>
                   <p className="bp-cart-note">
-                    Ovo je demo projekt i ne obrađuje stvarne uplate. Za
-                    kupnju posjeti{' '}
-                    <a
-                      href="https://balkanpharm.hr"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      službeni BalkanPharm webshop
-                    </a>
-                    .
+                    Ovo je demo prikaz — košarica i plaćanje nisu povezani s
+                    stvarnom narudžbom.
                   </p>
                 </footer>
               </>
@@ -761,11 +774,7 @@ function App() {
       )}
 
       <footer className="bp-footer">
-        <span>© {new Date().getFullYear()} BalkanPharm demo webshop</span>
-        <span className="bp-footer-separator">•</span>
-        <a href="https://balkanpharm.hr" target="_blank" rel="noreferrer">
-          balkanpharm.hr
-        </a>
+        <span>© {new Date().getFullYear()} demo prikaz čajeva</span>
       </footer>
     </div>
   )
