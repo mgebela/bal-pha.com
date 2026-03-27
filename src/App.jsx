@@ -1,6 +1,24 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import catalog from './assets/balkanpharm-catalog.json'
+
+const NEWSLETTER_STORAGE_KEY = 'balpha-tea-club-email'
+const SESSION_MAIN_DISMISSED = 'balpha-newsletter-main-dismissed'
+const SESSION_EXIT_SHOWN = 'balpha-newsletter-exit-shown'
+const DISCOUNT_CODE = 'TEA10'
+const MAIN_POPUP_DELAY_MS = 5000
+
+function readStoredNewsletterEmail() {
+  try {
+    return localStorage.getItem(NEWSLETTER_STORAGE_KEY) || ''
+  } catch {
+    return ''
+  }
+}
+
+function isValidEmail(value) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(value).trim())
+}
 
 function normalizeText(value) {
   return String(value ?? '')
@@ -124,6 +142,80 @@ function App() {
   const [search, setSearch] = useState('')
   const [cart, setCart] = useState({})
   const [isCartOpen, setIsCartOpen] = useState(false)
+  const [subscribedEmail, setSubscribedEmail] = useState(readStoredNewsletterEmail)
+  const [showMainNewsletter, setShowMainNewsletter] = useState(false)
+  const [showExitNewsletter, setShowExitNewsletter] = useState(false)
+  const [showWelcomeEmail, setShowWelcomeEmail] = useState(false)
+  const [newsletterInput, setNewsletterInput] = useState('')
+  const [newsletterError, setNewsletterError] = useState('')
+
+  useEffect(() => {
+    if (subscribedEmail) return
+    const timer = window.setTimeout(() => {
+      try {
+        if (sessionStorage.getItem(SESSION_MAIN_DISMISSED)) return
+        if (sessionStorage.getItem(SESSION_EXIT_SHOWN)) return
+      } catch {
+        /* ignore */
+      }
+      setShowMainNewsletter(true)
+    }, MAIN_POPUP_DELAY_MS)
+    return () => window.clearTimeout(timer)
+  }, [subscribedEmail])
+
+  useEffect(() => {
+    if (subscribedEmail) return
+    if (showMainNewsletter) return
+
+    const onDocLeave = (e) => {
+      if (e.clientY > 24) return
+      try {
+        if (sessionStorage.getItem(SESSION_EXIT_SHOWN)) return
+        sessionStorage.setItem(SESSION_EXIT_SHOWN, '1')
+      } catch {
+        /* ignore */
+      }
+      setShowExitNewsletter(true)
+    }
+
+    document.documentElement.addEventListener('mouseleave', onDocLeave)
+    return () =>
+      document.documentElement.removeEventListener('mouseleave', onDocLeave)
+  }, [subscribedEmail, showMainNewsletter])
+
+  function dismissMainNewsletter() {
+    try {
+      sessionStorage.setItem(SESSION_MAIN_DISMISSED, '1')
+    } catch {
+      /* ignore */
+    }
+    setShowMainNewsletter(false)
+  }
+
+  function submitNewsletter(e) {
+    e.preventDefault()
+    const email = newsletterInput.trim()
+    if (!isValidEmail(email)) {
+      setNewsletterError('Unesi valjanu e-mail adresu.')
+      return
+    }
+    try {
+      localStorage.setItem(NEWSLETTER_STORAGE_KEY, email)
+      sessionStorage.setItem(SESSION_MAIN_DISMISSED, '1')
+      sessionStorage.setItem(SESSION_EXIT_SHOWN, '1')
+    } catch {
+      /* ignore */
+    }
+    setSubscribedEmail(email)
+    setNewsletterError('')
+    setShowMainNewsletter(false)
+    setShowExitNewsletter(false)
+    setShowWelcomeEmail(true)
+  }
+
+  function dismissExitNewsletter() {
+    setShowExitNewsletter(false)
+  }
 
   const filteredProducts = useMemo(() => {
     const q = normalizeText(search)
@@ -304,7 +396,7 @@ function App() {
           </div>
         </section>
 
-        <section className="bp-products">
+        <section className="bp-products" id="products">
           {filteredProducts.length === 0 ? (
             <div className="bp-empty-state">
               <h2>Nema rezultata</h2>
@@ -380,6 +472,198 @@ function App() {
           )}
         </section>
       </main>
+
+      {showMainNewsletter && (
+        <div
+          className="bp-newsletter-backdrop"
+          role="presentation"
+          onClick={dismissMainNewsletter}
+        >
+          <div
+            className="bp-newsletter-modal bp-newsletter-modal--main"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="bp-newsletter-main-title"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              className="bp-newsletter-close"
+              onClick={dismissMainNewsletter}
+              aria-label="Zatvori"
+            >
+              ×
+            </button>
+            <p className="bp-newsletter-kicker">Tea Club</p>
+            <h2 id="bp-newsletter-main-title" className="bp-newsletter-title">
+              🎁 Uzmi -10% na prvu narudžbu
+            </h2>
+            <p className="bp-newsletter-subtitle">
+              pristup ekskluzivnim blendovima i posebnim ponudama
+            </p>
+            <p className="bp-newsletter-lead">
+              Pridruži se našem Tea Clubu i budi prvi koji isprobava nove okuse.
+            </p>
+            <form className="bp-newsletter-form" onSubmit={submitNewsletter}>
+              <label className="bp-newsletter-label" htmlFor="bp-newsletter-email-main">
+                E-mail
+              </label>
+              <input
+                id="bp-newsletter-email-main"
+                type="email"
+                name="email"
+                autoComplete="email"
+                placeholder="Unesi svoj email"
+                value={newsletterInput}
+                onChange={(e) => {
+                  setNewsletterInput(e.target.value)
+                  if (newsletterError) setNewsletterError('')
+                }}
+                className="bp-newsletter-input"
+              />
+              {newsletterError && (
+                <p className="bp-newsletter-error" role="alert">
+                  {newsletterError}
+                </p>
+              )}
+              <button type="submit" className="bp-newsletter-cta">
+                👉 Želim -10%
+              </button>
+            </form>
+            <p className="bp-newsletter-footnote">
+              Bez spama. Samo dobre ponude i još bolji čaj.
+            </p>
+          </div>
+        </div>
+      )}
+
+      {showExitNewsletter && (
+        <div
+          className="bp-newsletter-backdrop"
+          role="presentation"
+          onClick={dismissExitNewsletter}
+        >
+          <div
+            className="bp-newsletter-modal bp-newsletter-modal--exit"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="bp-newsletter-exit-title"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              className="bp-newsletter-close"
+              onClick={dismissExitNewsletter}
+              aria-label="Zatvori"
+            >
+              ×
+            </button>
+            <h2 id="bp-newsletter-exit-title" className="bp-newsletter-title">
+              Čekaj — uzmi -10% prije nego odeš 👀
+            </h2>
+            <p className="bp-newsletter-lead">
+              Evo mali poklon za prvu narudžbu.
+            </p>
+            <form className="bp-newsletter-form" onSubmit={submitNewsletter}>
+              <label className="bp-newsletter-label" htmlFor="bp-newsletter-email-exit">
+                E-mail
+              </label>
+              <input
+                id="bp-newsletter-email-exit"
+                type="email"
+                name="email"
+                autoComplete="email"
+                placeholder="Unesi svoj email"
+                value={newsletterInput}
+                onChange={(e) => {
+                  setNewsletterInput(e.target.value)
+                  if (newsletterError) setNewsletterError('')
+                }}
+                className="bp-newsletter-input"
+              />
+              {newsletterError && (
+                <p className="bp-newsletter-error" role="alert">
+                  {newsletterError}
+                </p>
+              )}
+              <button type="submit" className="bp-newsletter-cta">
+                👉 Pošalji mi kod
+              </button>
+            </form>
+            <p className="bp-newsletter-footnote">
+              Bez spama. Samo dobre ponude i još bolji čaj.
+            </p>
+          </div>
+        </div>
+      )}
+
+      {showWelcomeEmail && (
+        <div
+          className="bp-newsletter-backdrop"
+          role="presentation"
+          onClick={() => setShowWelcomeEmail(false)}
+        >
+          <div
+            className="bp-newsletter-modal bp-newsletter-modal--welcome"
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="bp-welcome-email-subject"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              className="bp-newsletter-close"
+              onClick={() => setShowWelcomeEmail(false)}
+              aria-label="Zatvori"
+            >
+              ×
+            </button>
+            <p className="bp-welcome-email-meta">
+              <span className="bp-welcome-email-label">Predmet</span>
+              <span id="bp-welcome-email-subject">
+                Evo tvoj -10% kod 🎁
+              </span>
+            </p>
+            <p className="bp-welcome-email-preview">
+              <span className="bp-welcome-email-label">Pretpregled</span>
+              Iskoristi ga dok traje
+            </p>
+            <div className="bp-welcome-email-body">
+              <p>
+                Hej 👋
+                <br />
+                dobrodošao u Tea Club 🍃
+              </p>
+              <p>Evo tvoj kod za -10%:</p>
+              <p className="bp-welcome-code">
+                👉 <strong>{DISCOUNT_CODE}</strong>
+              </p>
+              <p>
+                Iskoristi ga na svoju prvu narudžbu i pronađi svoj novi omiljeni
+                čaj.
+              </p>
+              <p>
+                <strong>🔥 Preporuka:</strong>
+                <br />
+                Ako nisi siguran što uzeti — kreni s našim mix paketima i
+                isprobaj više okusa odjednom.
+              </p>
+              <a
+                className="bp-welcome-email-link"
+                href="#products"
+                onClick={() => setShowWelcomeEmail(false)}
+              >
+                👉 Pogledaj čajeve
+              </a>
+              <p className="bp-welcome-email-signoff">
+                Vidimo se uskoro,
+                <br />
+                Tim 🍵
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
 
       {isCartOpen && (
         <div className="bp-cart-backdrop" onClick={() => setIsCartOpen(false)}>
