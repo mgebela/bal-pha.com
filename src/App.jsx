@@ -410,14 +410,14 @@ function App() {
                   className={`bp-tea-section bp-tea-section-${group.key}`}
                 >
                   <header className="bp-tea-section-header">
-                    <div className="bp-tea-section-headline">
-                      <h2>{group.title}</h2>
-                      <p>{group.subtitle}</p>
-                    </div>
                     <BalphaLogo
                       variant={group.logoVariant}
                       className="bp-tea-section-logo"
                     />
+                    <div className="bp-tea-section-headline">
+                      <h2>{group.title}</h2>
+                      <p>{group.subtitle}</p>
+                    </div>
                   </header>
 
                   <div className="bp-product-grid">
