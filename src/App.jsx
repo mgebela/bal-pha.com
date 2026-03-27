@@ -508,7 +508,7 @@ function App() {
               </p>
               <div className="bp-hero-rating-row">
                 <StarRating rating={4.8} />
-                <span className="bp-hero-rating-caption">Visoke ocjene prvjih kupaca</span>
+                <span className="bp-hero-rating-caption">Visoke ocjene prvih kupaca</span>
               </div>
               <div className="bp-hero-price-block">
                 <PriceCompare
