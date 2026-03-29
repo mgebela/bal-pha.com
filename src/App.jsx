@@ -25,7 +25,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      'Jutarnja energija bez „škripanja“. Paket otkrića mi je olakšao odabir — sve na jednom mjestu.',
+      'Jutarnja energija bez „škripanja“. Mistery box mi je olakšao odabir — sve na jednom mjestu.',
     author: 'Ivan P.',
     city: 'Zagreb',
   },
@@ -129,7 +129,7 @@ function BalphaLogo({ variant = 'green', className = '' }) {
 
 const TEA_DISCOVERY_BOX_PRODUCT = {
   id: 'tea-discovery-box',
-  name: 'Paket otkrića — 3 čaja',
+  name: 'Mistery box — 3 čaja',
   priceEur: 33,
   priceMinEur: 33,
   priceMaxEur: 33,
@@ -544,8 +544,8 @@ function App() {
         >
           <div className="bp-featured-discovery-inner">
             <div className="bp-featured-discovery-copy">
-              <span className="bp-featured-eyebrow">Istaknuto · Paket otkrića</span>
-              <h2 id="bp-featured-discovery-title">Paket otkrića</h2>
+              <span className="bp-featured-eyebrow">Istaknuto · Mistery box</span>
+              <h2 id="bp-featured-discovery-title">Mistery box</h2>
               <StarRating rating={4.8} />
               <div className="bp-discovery-prose">
                 <p className="bp-discovery-lead">Ne znaš koji čaj odabrati?</p>
@@ -590,7 +590,7 @@ function App() {
                 <span className="bp-featured-visual-icon" aria-hidden="true">
                   🍃
                 </span>
-                <p className="bp-featured-visual-title">Paket otkrića</p>
+                <p className="bp-featured-visual-title">Mistery box</p>
                 <p className="bp-featured-visual-meta">Jutro · Dan · Noć</p>
               </div>
             </div>
@@ -677,7 +677,7 @@ function App() {
           <div className="bp-cta-repeat-inner">
             <h2 id="bp-cta-repeat-title">Kad god ti odgovara</h2>
             <p className="bp-cta-repeat-prices">
-              Uzmi paket otkrića po{' '}
+              Uzmi Mistery box po{' '}
               <PriceCompare
                 price={TEA_DISCOVERY_BOX_PRODUCT.priceEur}
                 compareAt={TEA_DISCOVERY_BOX_PRODUCT.compareAtPriceEur}
