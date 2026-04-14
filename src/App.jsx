@@ -553,38 +553,6 @@ function App() {
           </p>
         </section>
 
-        <section className="bp-upsell-duo" aria-labelledby="bp-duo-title">
-          <div className="bp-upsell-duo-inner">
-            <div className="bp-upsell-duo-copy">
-              <span className="bp-featured-eyebrow">Više za ljubitelje</span>
-              <h2 id="bp-duo-title">Premium čajni duo</h2>
-              <p className="bp-upsell-tagline">Želiš više? Prijeđi na veća pakiranja.</p>
-              <p>
-                Dva izdašna pakiranja od 100 g za sporije ispijanje, dijeljenje ili zalihu kod kuće.
-                I dalje jasno, i dalje premium — samo više onoga što već voliš.
-              </p>
-              <div className="bp-upsell-price">
-                <PriceCompare
-                  price={PREMIUM_TEA_DUO_PRODUCT.priceEur}
-                  compareAt={PREMIUM_TEA_DUO_PRODUCT.compareAtPriceEur}
-                />
-              </div>
-              <button
-                type="button"
-                className="bp-button-primary"
-                onClick={() => addToCart(PREMIUM_TEA_DUO_PRODUCT.id)}
-              >
-                Dodaj premium duo
-              </button>
-            </div>
-            {PREMIUM_TEA_DUO_PRODUCT.imageUrl && (
-              <div className="bp-upsell-duo-media">
-                <img src={PREMIUM_TEA_DUO_PRODUCT.imageUrl} alt="" loading="lazy" />
-              </div>
-            )}
-          </div>
-        </section>
-
         <section className="bp-products" id="products">
           {filteredProducts.length === 0 ? (
             <div className="bp-empty-state">
@@ -661,6 +629,38 @@ function App() {
               )}
             </div>
           )}
+        </section>
+
+        <section className="bp-upsell-duo" aria-labelledby="bp-duo-title">
+          <div className="bp-upsell-duo-inner">
+            <div className="bp-upsell-duo-copy">
+              <span className="bp-featured-eyebrow">Više za ljubitelje</span>
+              <h2 id="bp-duo-title">Premium čajni duo</h2>
+              <p className="bp-upsell-tagline">Želiš više? Prijeđi na veća pakiranja.</p>
+              <p>
+                Dva izdašna pakiranja od 100 g za sporije ispijanje, dijeljenje ili zalihu kod kuće.
+                I dalje jasno, i dalje premium — samo više onoga što već voliš.
+              </p>
+              <div className="bp-upsell-price">
+                <PriceCompare
+                  price={PREMIUM_TEA_DUO_PRODUCT.priceEur}
+                  compareAt={PREMIUM_TEA_DUO_PRODUCT.compareAtPriceEur}
+                />
+              </div>
+              <button
+                type="button"
+                className="bp-button-primary"
+                onClick={() => addToCart(PREMIUM_TEA_DUO_PRODUCT.id)}
+              >
+                Dodaj premium duo
+              </button>
+            </div>
+            {PREMIUM_TEA_DUO_PRODUCT.imageUrl && (
+              <div className="bp-upsell-duo-media">
+                <img src={PREMIUM_TEA_DUO_PRODUCT.imageUrl} alt="" loading="lazy" />
+              </div>
+            )}
+          </div>
         </section>
       </main>
 
