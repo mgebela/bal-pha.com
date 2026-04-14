@@ -128,9 +128,9 @@ function BalphaLogo({ variant = 'green', className = '' }) {
 const PREMIUM_TEA_DUO_PRODUCT = {
   id: 'premium-tea-duo',
   name: 'Premium čajni duo',
-  priceEur: 30,
-  priceMinEur: 30,
-  priceMaxEur: 30,
+  priceEur: 29.9,
+  priceMinEur: 29.9,
+  priceMaxEur: 29.9,
   compareAtPriceEur: 55,
   category: 'Paketi',
   description: 'Dva velika pakiranja (100 g) za duže uživanje ili dijeljenje.',
