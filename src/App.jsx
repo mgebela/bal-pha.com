@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { Fragment, useEffect, useMemo, useState } from 'react'
 import './App.css'
 import catalog from './assets/balkanpharm-catalog.json'
 import ovajDizeHeroImg from './assets/ovaj-dize-iz-mrtvih.png'
@@ -561,63 +561,108 @@ function App() {
             </div>
           ) : (
             <div className="bp-tea-sections">
-              {teaGroups.map((group) => (
-                <section
-                  key={group.key}
-                  className={`bp-tea-section bp-tea-section-${group.key}`}
-                >
-                  <header className="bp-tea-section-header">
-                    <BalphaLogo
-                      variant={group.logoVariant}
-                      className="bp-tea-section-logo"
-                    />
-                    <div className="bp-tea-section-headline">
-                      <h2>{group.title}</h2>
-                      <p>{group.subtitle}</p>
-                    </div>
-                  </header>
+              {teaGroups.map((group, index) => (
+                <Fragment key={group.key}>
+                  <section
+                    className={`bp-tea-section bp-tea-section-${group.key}`}
+                  >
+                    <header className="bp-tea-section-header">
+                      <BalphaLogo
+                        variant={group.logoVariant}
+                        className="bp-tea-section-logo"
+                      />
+                      <div className="bp-tea-section-headline">
+                        <h2>{group.title}</h2>
+                        <p>{group.subtitle}</p>
+                      </div>
+                    </header>
 
-                  <div className="bp-product-grid">
-                    {group.products.slice(0, 3).map((product) => (
-                      <article key={product.id} className="bp-product-card">
-                        <div className="bp-product-badge">ČAJ</div>
-                        {product.imageUrl && (
-                          <div className="bp-product-media">
+                    <div className="bp-product-grid">
+                      {group.products.slice(0, 3).map((product) => (
+                        <article key={product.id} className="bp-product-card">
+                          <div className="bp-product-badge">ČAJ</div>
+                          {product.imageUrl && (
+                            <div className="bp-product-media">
+                              <img
+                                src={product.imageUrl}
+                                alt={product.name}
+                                loading="lazy"
+                              />
+                            </div>
+                          )}
+                          <div className="bp-product-body">
+                            <h3 className="bp-product-name">{product.name}</h3>
+                            {product.description?.trim() ? (
+                              <p className="bp-product-desc">{product.description}</p>
+                            ) : null}
+                            <div className="bp-product-meta">
+                              {product.size && (
+                                <span className="bp-product-size">{product.size}</span>
+                              )}
+                            </div>
+                          </div>
+                          <div className="bp-product-footer">
+                            <div className="bp-product-price">
+                              {product.priceMinEur === product.priceMaxEur
+                                ? formatPrice(product.priceMinEur)
+                                : `od ${formatPrice(product.priceMinEur)}`}
+                            </div>
+                            <button
+                              className="bp-button-primary"
+                              onClick={() => addToCart(product.id)}
+                            >
+                              Dodaj u košaricu
+                            </button>
+                          </div>
+                        </article>
+                      ))}
+                    </div>
+                  </section>
+
+                  {index === 1 ? (
+                    <section
+                      className="bp-upsell-duo bp-upsell-duo--in-tea-catalog"
+                      aria-labelledby="bp-duo-title"
+                    >
+                      <div className="bp-upsell-duo-inner">
+                        <div className="bp-upsell-duo-copy">
+                          <span className="bp-featured-eyebrow">Više za ljubitelje</span>
+                          <h2 id="bp-duo-title">Premium čajni duo</h2>
+                          <p className="bp-upsell-tagline">
+                            Želiš više? Prijeđi na veća pakiranja.
+                          </p>
+                          <p>
+                            Dva izdašna pakiranja od 100 g za sporije ispijanje, dijeljenje ili
+                            zalihu kod kuće. I dalje jasno, i dalje premium — samo više onoga što već
+                            voliš.
+                          </p>
+                          <div className="bp-upsell-price">
+                            <PriceCompare
+                              price={PREMIUM_TEA_DUO_PRODUCT.priceEur}
+                              compareAt={PREMIUM_TEA_DUO_PRODUCT.compareAtPriceEur}
+                            />
+                          </div>
+                          <button
+                            type="button"
+                            className="bp-button-primary"
+                            onClick={() => addToCart(PREMIUM_TEA_DUO_PRODUCT.id)}
+                          >
+                            Dodaj premium duo
+                          </button>
+                        </div>
+                        {PREMIUM_TEA_DUO_PRODUCT.imageUrl && (
+                          <div className="bp-upsell-duo-media">
                             <img
-                              src={product.imageUrl}
-                              alt={product.name}
+                              src={PREMIUM_TEA_DUO_PRODUCT.imageUrl}
+                              alt=""
                               loading="lazy"
                             />
                           </div>
                         )}
-                        <div className="bp-product-body">
-                          <h3 className="bp-product-name">{product.name}</h3>
-                          {product.description?.trim() ? (
-                            <p className="bp-product-desc">{product.description}</p>
-                          ) : null}
-                          <div className="bp-product-meta">
-                            {product.size && (
-                              <span className="bp-product-size">{product.size}</span>
-                            )}
-                          </div>
-                        </div>
-                        <div className="bp-product-footer">
-                          <div className="bp-product-price">
-                            {product.priceMinEur === product.priceMaxEur
-                              ? formatPrice(product.priceMinEur)
-                              : `od ${formatPrice(product.priceMinEur)}`}
-                          </div>
-                          <button
-                            className="bp-button-primary"
-                            onClick={() => addToCart(product.id)}
-                          >
-                            Dodaj u košaricu
-                          </button>
-                        </div>
-                      </article>
-                    ))}
-                  </div>
-                </section>
+                      </div>
+                    </section>
+                  ) : null}
+                </Fragment>
               ))}
 
               {teaGroups.some((g) => g.products.length === 0) && (
@@ -629,38 +674,6 @@ function App() {
               )}
             </div>
           )}
-        </section>
-
-        <section className="bp-upsell-duo" aria-labelledby="bp-duo-title">
-          <div className="bp-upsell-duo-inner">
-            <div className="bp-upsell-duo-copy">
-              <span className="bp-featured-eyebrow">Više za ljubitelje</span>
-              <h2 id="bp-duo-title">Premium čajni duo</h2>
-              <p className="bp-upsell-tagline">Želiš više? Prijeđi na veća pakiranja.</p>
-              <p>
-                Dva izdašna pakiranja od 100 g za sporije ispijanje, dijeljenje ili zalihu kod kuće.
-                I dalje jasno, i dalje premium — samo više onoga što već voliš.
-              </p>
-              <div className="bp-upsell-price">
-                <PriceCompare
-                  price={PREMIUM_TEA_DUO_PRODUCT.priceEur}
-                  compareAt={PREMIUM_TEA_DUO_PRODUCT.compareAtPriceEur}
-                />
-              </div>
-              <button
-                type="button"
-                className="bp-button-primary"
-                onClick={() => addToCart(PREMIUM_TEA_DUO_PRODUCT.id)}
-              >
-                Dodaj premium duo
-              </button>
-            </div>
-            {PREMIUM_TEA_DUO_PRODUCT.imageUrl && (
-              <div className="bp-upsell-duo-media">
-                <img src={PREMIUM_TEA_DUO_PRODUCT.imageUrl} alt="" loading="lazy" />
-              </div>
-            )}
-          </div>
         </section>
       </main>
 

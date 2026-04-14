@@ -746,6 +746,10 @@
     0 0 0 1px rgba(255, 255, 255, 0.55) inset;
 }
 
+.bp-upsell-duo--in-tea-catalog {
+  margin: 0;
+}
+
 .bp-upsell-duo-inner {
   display: flex;
   flex-direction: column;
