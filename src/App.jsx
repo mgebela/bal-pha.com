@@ -1,20 +1,16 @@
 import { useEffect, useMemo, useState } from 'react'
 import './App.css'
 import catalog from './assets/balkanpharm-catalog.json'
-import ovajDizeHeroImg from './assets/ovaj-dize-iz-mrtvih.png'
 
 const BALPHA_LOGO_URL = `${import.meta.env.BASE_URL}balpha-logo.png`
+const UNIFIED_TEA_IMAGE_URL = `${import.meta.env.BASE_URL}tea-product-hero.png`
 
 const NEWSLETTER_STORAGE_KEY = 'balpha-tea-club-email'
 const SESSION_MAIN_DISMISSED = 'balpha-newsletter-main-dismissed'
 const SESSION_EXIT_SHOWN = 'balpha-newsletter-exit-shown'
 const DISCOUNT_CODE = 'TEA10'
 const MAIN_POPUP_DELAY_MS = 5000
-const BUNDLE_HERO_IMAGES = [
-  ovajDizeHeroImg,
-  'https://cdn.shopify.com/s/files/1/0631/0448/3570/files/kopika50g.png?v=1737404419',
-  'https://cdn.shopify.com/s/files/1/0631/0448/3570/files/carobnabanana100g_1.png?v=1708464197',
-]
+const BUNDLE_HERO_IMAGES = [UNIFIED_TEA_IMAGE_URL, UNIFIED_TEA_IMAGE_URL, UNIFIED_TEA_IMAGE_URL]
 
 const TESTIMONIALS = [
   {
@@ -80,7 +76,7 @@ const MANUAL_TEA_EXTRA = [
     category: 'Čajevi',
     description: 'THC: <0,3% · CBD: >15%.',
     size: '50g',
-    imageUrl: ovajDizeHeroImg,
+    imageUrl: UNIFIED_TEA_IMAGE_URL,
   },
 ]
 
@@ -118,7 +114,7 @@ const PRODUCTS = [
         category: primaryCategory,
         description,
         size,
-        imageUrl: p.imageUrl || (p.images && p.images[0]?.src) || null,
+        imageUrl: UNIFIED_TEA_IMAGE_URL,
       }
     }),
   ...MANUAL_TEA_EXTRA,
