@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-02-27T18:31:13.541Z",
+  "generatedAt": "2026-04-24T11:47:01.734Z",
   "source": "https://balkanpharm.hr",
   "categories": [
     {
       "handle": "cbd-cvjetovi",
       "title": "Cvjetovi",
       "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/collections/cvijet_bijela.jpg?v=1648753483",
-      "productsCount": 15
+      "productsCount": 13
     },
     {
       "handle": "frulice",
       "title": "Frulice",
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/collections/xy_15.png?v=1705172040",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/collections/xy_15.png?v=1777022220",
       "productsCount": 5
     },
     {
@@ -42,7 +42,7 @@
       "handle": "setovi",
       "title": "Setovi",
       "imageUrl": null,
-      "productsCount": 4
+      "productsCount": 1
     },
     {
       "handle": "dodaci-prehrani",
@@ -55,13 +55,13 @@
     {
       "id": "balkan-hashis",
       "shopifyId": "14766033928540",
-      "title": "BALKAN HASHIS",
+      "title": "BALKAN HASHISH 2G",
       "handle": "balkan-hashis",
       "url": "https://balkanpharm.hr/products/balkan-hashis",
       "vendor": "BalkanPharm",
       "productType": "cbd flower",
       "tags": [],
-      "descriptionText": "Otkrijte potpuno novu razinu izvrsnosti CBD-a s našim prvim hrvatskim CBD HASHOM- BALKAN Hashom.\nVrhunski koncentrat koji objedinjuje drevni zanat pravljenja hashisa s čistim bogatim naslijeđem vrhunske hrvatske konoplje. Ubran iz najfinije konoplje uzgojene kod nas u Hrvatskoj, i napravljen od stručne ruke ekipe entuzijasta Balkanpharma.  BALKAN Hash je izrađen od posebne sorte crnih cvijetova i predstavlja savršen spoj moći prirode i majstorske izrade.\nCBD hash je koncentrirani oblik kanabidiola (CBD) napravljen od smolastih trihoma biljke konoplje. To je tradicionalni proizvod od kanabisa koji se koristi stoljećima, ali s modernim prizvukom. CBD hash nastaje pažljivim skupljanjem smolastih žlijezda (trihoma) iz biljke konoplje i zatim njihovim sabijanjem u gusti, ljepljivi blok ili grumen. Ovaj proizvod je obično snažniji od običnog CBD cvijeta zbog svoje koncentrirane prirode, jer sadrži veće razine CBD-a.\nBALKAN HASHIS dolazi u pakiranju od 2g.\nCBD 60%\nTHC 0,20%",
+      "descriptionText": "Otkrijte potpuno novu razinu izvrsnosti CBD-a s našim prvim hrvatskim CBD HASHOM- BALKAN Hashom.\nVrhunski koncentrat koji objedinjuje drevni zanat pravljenja hashisa s čistim bogatim naslijeđem vrhunske hrvatske konoplje. Ubran iz najfinije konoplje uzgojene kod nas u Hrvatskoj, i napravljen od stručne ruke ekipe entuzijasta Balkanpharma.  BALKAN Hash je izrađen od posebne sorte crnih cvijetova i predstavlja savršen spoj moći prirode i majstorske izrade.\nCBD hash je koncentrirani oblik kanabidiola (CBD) napravljen od smolastih trihoma biljke konoplje. To je tradicionalni proizvod od kanabisa koji se koristi stoljećima, ali s modernim prizvukom. CBD hash nastaje pažljivim skupljanjem smolastih žlijezda (trihoma) iz biljke konoplje i zatim njihovim sabijanjem u gusti, ljepljivi blok ili grumen. Ovaj proizvod je obično snažniji od običnog CBD cvijeta zbog svoje koncentrirane prirode, jer sadrži veće razine CBD-a.\nBALKAN HASHISH dolazi u pakiranju od 2g.\nCBD 60%\nTHC 0,20%",
       "images": [
         {
           "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/balkanhashis.png?v=1731595571",
@@ -75,8 +75,8 @@
           "id": "53449777086812",
           "title": "Default Title",
           "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 19.9,
+          "compareAtPriceEur": 25,
           "sku": "",
           "grams": 0,
           "option1": "Default Title",
@@ -87,8 +87,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 25,
-        "max": 25
+        "min": 19.9,
+        "max": 19.9
       },
       "categories": [
         "Cvjetovi"
@@ -164,8 +164,8 @@
           "id": "44404706509042",
           "title": "Default Title",
           "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 25,
           "sku": "0725765362889",
           "grams": 2,
           "option1": "Default Title",
@@ -176,13 +176,11 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 25,
-        "max": 25
+        "min": 14.9,
+        "max": 14.9
       },
-      "categories": [
-        "Moonrocks"
-      ],
-      "primaryCategory": "Moonrocks"
+      "categories": [],
+      "primaryCategory": null
     },
     {
       "id": "balkan-orkain-vocni-caj-50g",
@@ -207,8 +205,8 @@
           "id": "56108764070236",
           "title": "Default Title",
           "available": true,
-          "priceEur": 20,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 15,
           "sku": null,
           "grams": 50,
           "option1": "Default Title",
@@ -219,68 +217,13 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 20,
-        "max": 20
+        "min": 10.9,
+        "max": 10.9
       },
       "categories": [
         "Čajevi"
       ],
       "primaryCategory": "Čajevi"
-    },
-    {
-      "id": "big-boss-set",
-      "shopifyId": "8742904201564",
-      "title": "Big Boss set",
-      "handle": "big-boss-set",
-      "url": "https://balkanpharm.hr/products/big-boss-set",
-      "vendor": "BalkanPharm",
-      "productType": "",
-      "tags": [],
-      "descriptionText": "Big boss set predstavlja snažnu i aromatičnu kolekciju CBD proizvoda, pomno izrađenu za zadovoljene različitih potreba naših cijenjenih kupaca. Započnite jutro sa našim prirodnim čajem \"Ovaj diže iz mrtvih\" i osjetite boost koji je Vašem organizmu potreban za uspješan i ispunjen početak dana. Nakon napornog dana za Vas su tu Blek Brna i G.B. Boss frulice koje će se pobrinuti za pružanje iznimnog olakšanja i opuštanja.\nMali set:\nBlek Brna 2g\n2x G.B. Boss frulice\nOvaj diže iz mrtvih 50g\nVeliki set:\nBlek Brna 6g\n4x G.B. Boss frulice\nOvaj diže iz mrtvih 100g\nSvaki proizvod u našoj kolekciji pažljivo je formuliran kako bi\npružio neusporedivu snagu i učinkovitost.",
-      "images": [
-        {
-          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Bigbossset.png?v=1707313007",
-          "width": 940,
-          "height": 788
-        }
-      ],
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/Bigbossset.png?v=1707313007",
-      "variants": [
-        {
-          "id": "47631413576028",
-          "title": "Mali",
-          "available": true,
-          "priceEur": 30,
-          "compareAtPriceEur": null,
-          "sku": "",
-          "grams": 0,
-          "option1": "Mali",
-          "option2": null,
-          "option3": null
-        },
-        {
-          "id": "47631413608796",
-          "title": "Veliki",
-          "available": true,
-          "priceEur": 70,
-          "compareAtPriceEur": null,
-          "sku": "",
-          "grams": 0,
-          "option1": "Veliki",
-          "option2": null,
-          "option3": null
-        }
-      ],
-      "available": true,
-      "price": {
-        "currency": "EUR",
-        "min": 30,
-        "max": 70
-      },
-      "categories": [
-        "Setovi"
-      ],
-      "primaryCategory": "Setovi"
     },
     {
       "id": "blek-brna",
@@ -315,8 +258,8 @@
           "id": "42484488503538",
           "title": "2g",
           "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 25,
           "sku": "0764460713466",
           "grams": 2,
           "option1": "2g",
@@ -327,8 +270,8 @@
           "id": "42484488536306",
           "title": "6g",
           "available": true,
-          "priceEur": 75,
-          "compareAtPriceEur": null,
+          "priceEur": 44.9,
+          "compareAtPriceEur": 75,
           "sku": "0764460713473",
           "grams": 6,
           "option1": "6g",
@@ -339,13 +282,11 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 25,
-        "max": 75
+        "min": 14.9,
+        "max": 44.9
       },
-      "categories": [
-        "Cvjetovi"
-      ],
-      "primaryCategory": "Cvjetovi"
+      "categories": [],
+      "primaryCategory": null
     },
     {
       "id": "blue-sky-2g",
@@ -375,8 +316,8 @@
           "id": "42935940448498",
           "title": "Default Title",
           "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 25,
           "sku": "0725765362841",
           "grams": 2,
           "option1": "Default Title",
@@ -387,24 +328,22 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 25,
-        "max": 25
+        "min": 14.9,
+        "max": 14.9
       },
-      "categories": [
-        "Moonrocks"
-      ],
-      "primaryCategory": "Moonrocks"
+      "categories": [],
+      "primaryCategory": null
     },
     {
       "id": "brna-hashis-2g",
       "shopifyId": "14766032519516",
-      "title": "BRNA HASHIS 2g",
+      "title": "BRNA HASHISH 2g",
       "handle": "brna-hashis-2g",
       "url": "https://balkanpharm.hr/products/brna-hashis-2g",
       "vendor": "BalkanPharm",
       "productType": "cbd flower",
       "tags": [],
-      "descriptionText": "Otključajte puni potencijal CBD-a s našim vrhunskim CBD BRNA HASHOM- snažnim, potpuno prirodnim koncentratom izrađenim za one koji traže poboljšane dobrobiti bez psihoaktivnih učinaka. Napravljen od najfinijih biljaka konoplje, naš CBD HASH donosi bogato iskustvo punog spektra, prepun moćnih kanabinoida, terpena i fitonutrijenata za podršku vašem umu i tijelu.\nCBD hash je koncentrirani oblik kanabidiola (CBD) napravljen od smolastih trihoma biljke konoplje. To je tradicionalni proizvod od kanabisa koji se koristi stoljećima, ali s modernim prizvukom. CBD hash nastaje pažljivim skupljanjem smolastih žlijezda (trihoma) iz biljke konoplje i zatim njihovim sabijanjem u gusti, ljepljivi blok ili grumen. Ovaj proizvod je obično snažniji od običnog CBD cvijeta zbog svoje koncentrirane prirode, jer sadrži veće razine CBD-a.\nBRNA HASHIS dolazi u pakiranju od 2g.\nCBD 60%\nTHC 0,20%",
+      "descriptionText": "Otključajte puni potencijal CBD-a s našim vrhunskim CBD BRNA HASHOM- snažnim, potpuno prirodnim koncentratom izrađenim za one koji traže poboljšane dobrobiti bez psihoaktivnih učinaka. Napravljen od najfinijih biljaka konoplje, naš CBD HASH donosi bogato iskustvo punog spektra, prepun moćnih kanabinoida, terpena i fitonutrijenata za podršku vašem umu i tijelu.\nCBD hash je koncentrirani oblik kanabidiola (CBD) napravljen od smolastih trihoma biljke konoplje. To je tradicionalni proizvod od kanabisa koji se koristi stoljećima, ali s modernim prizvukom. CBD hash nastaje pažljivim skupljanjem smolastih žlijezda (trihoma) iz biljke konoplje i zatim njihovim sabijanjem u gusti, ljepljivi blok ili grumen. Ovaj proizvod je obično snažniji od običnog CBD cvijeta zbog svoje koncentrirane prirode, jer sadrži veće razine CBD-a.\nBRNA HASHISH dolazi u pakiranju od 2g.\nCBD 60%\nTHC 0,20%",
       "images": [
         {
           "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/brnahashis.png?v=1731594449",
@@ -418,8 +357,8 @@
           "id": "53449771450716",
           "title": "Default Title",
           "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 19.9,
+          "compareAtPriceEur": 25,
           "sku": "",
           "grams": 0,
           "option1": "Default Title",
@@ -430,8 +369,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 25,
-        "max": 25
+        "min": 19.9,
+        "max": 19.9
       },
       "categories": [
         "Cvjetovi"
@@ -471,8 +410,8 @@
           "id": "53848834572636",
           "title": "mali",
           "available": true,
-          "priceEur": 20,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 20,
           "sku": "",
           "grams": 0,
           "option1": "mali",
@@ -483,8 +422,8 @@
           "id": "53848834605404",
           "title": "srednji",
           "available": true,
-          "priceEur": 30,
-          "compareAtPriceEur": null,
+          "priceEur": 20.9,
+          "compareAtPriceEur": 30,
           "sku": "",
           "grams": 0,
           "option1": "srednji",
@@ -495,8 +434,8 @@
           "id": "53848834638172",
           "title": "veliki",
           "available": true,
-          "priceEur": 40,
-          "compareAtPriceEur": null,
+          "priceEur": 30.9,
+          "compareAtPriceEur": 40,
           "sku": "",
           "grams": 0,
           "option1": "veliki",
@@ -507,13 +446,11 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 20,
-        "max": 40
+        "min": 10.9,
+        "max": 30.9
       },
-      "categories": [
-        "Cvjetovi"
-      ],
-      "primaryCategory": "Cvjetovi"
+      "categories": [],
+      "primaryCategory": null
     },
     {
       "id": "cbd-ulje-jagoda",
@@ -538,8 +475,8 @@
           "id": "46488201527644",
           "title": "5%",
           "available": true,
-          "priceEur": 35,
-          "compareAtPriceEur": null,
+          "priceEur": 24.9,
+          "compareAtPriceEur": 35,
           "sku": "0745178938242",
           "grams": 2,
           "option1": "5%",
@@ -550,8 +487,8 @@
           "id": "46488201560412",
           "title": "10%",
           "available": true,
-          "priceEur": 45,
-          "compareAtPriceEur": null,
+          "priceEur": 34.9,
+          "compareAtPriceEur": 45,
           "sku": "0745178938259",
           "grams": 2,
           "option1": "10%",
@@ -562,8 +499,8 @@
           "id": "46488201593180",
           "title": "15%",
           "available": true,
-          "priceEur": 55,
-          "compareAtPriceEur": null,
+          "priceEur": 44.9,
+          "compareAtPriceEur": 55,
           "sku": "0745178938266",
           "grams": 2,
           "option1": "15%",
@@ -574,13 +511,11 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 35,
-        "max": 55
+        "min": 24.9,
+        "max": 44.9
       },
-      "categories": [
-        "CBD Ulje"
-      ],
-      "primaryCategory": "CBD Ulje"
+      "categories": [],
+      "primaryCategory": null
     },
     {
       "id": "cbd-ulje-naranca",
@@ -605,8 +540,8 @@
           "id": "46488157946204",
           "title": "5%",
           "available": true,
-          "priceEur": 35,
-          "compareAtPriceEur": null,
+          "priceEur": 24.9,
+          "compareAtPriceEur": 35,
           "sku": "0745178626446",
           "grams": 0,
           "option1": "5%",
@@ -617,8 +552,8 @@
           "id": "46488157978972",
           "title": "10%",
           "available": false,
-          "priceEur": 45,
-          "compareAtPriceEur": null,
+          "priceEur": 34.9,
+          "compareAtPriceEur": 45,
           "sku": "0745178938228",
           "grams": 0,
           "option1": "10%",
@@ -629,8 +564,8 @@
           "id": "46488158011740",
           "title": "15%",
           "available": false,
-          "priceEur": 55,
-          "compareAtPriceEur": null,
+          "priceEur": 44.9,
+          "compareAtPriceEur": 55,
           "sku": "0745178938235",
           "grams": 0,
           "option1": "15%",
@@ -641,13 +576,11 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 35,
-        "max": 55
+        "min": 24.9,
+        "max": 44.9
       },
-      "categories": [
-        "CBD Ulje"
-      ],
-      "primaryCategory": "CBD Ulje"
+      "categories": [],
+      "primaryCategory": null
     },
     {
       "id": "cbd-ulje-prirodno",
@@ -661,19 +594,19 @@
       "descriptionText": "CBD Ulje 20ml\n5% 500mg\n10% 1000mg\n15% 1500mg\nPredstavljamo naše CBD ulje vrhunske kvalitete s okusom prirodno - dostupno u koncentracijama od 5%, 10% i 15%.\nNaše CBD ulje dobiva se iz organski uzgojenih biljaka konoplje i bogato je prirodnim kanabinoidima, terpenima i flavonoidima.\nNaše visokokvalitetno CBD ulje pomiješano je s prirodnom aromom prirodno kako bi se stvorio ukusan proizvod koji se lako konzumira.\nNaše CBD ulje je laboratorijski ispitano kako bi se osigurala najviša kvaliteta i čistoća. To je nepsihoaktivan proizvod, što znači da ne uzrokuje nikakvo opijanje ili \"high\" povezan s THC-om. Umjesto toga, radi s endokanabinoidnim sustavom vašeg tijela kako bi pomogao u promicanju osjećaja smirenosti i blagostanja.\nKoncentracije od 5%, 10% i 15% omogućuju vam odabir jačine koja odgovara vašim individualnim potrebama.\nNaše CBD ulje je jednostavno za korištenje - jednostavno stavite željenu količinu pod jezik i držite je tamo 60-90 sekundi prije nego što progutate.\nPreporučujemo da počnete s nižom koncentracijom i postupno povećavate dok ne pronađete dozu koja vam najbolje odgovara.\nNaše CBD ulje u okusu prirodno savršeno je za one koji vole sladak i blag okus. Možete ga dodati vašoj omiljenoj hrani ili piću ili jednostavno uživati u njemu.\nSa svojim visokokvalitetnim sastojcima i finim okusom, naše CBD ulje u okusu prirodno izvrstan je dodatak vašoj dnevnoj wellness rutini.",
       "images": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/pexels-dominika-roseclayPRIRODNOcopy.jpg?v=1681481746",
-          "width": 2500,
-          "height": 3000
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/pexels-dominika-roseclayPRIRODNOcopy.jpgcopy.png?v=1775564556",
+          "width": 788,
+          "height": 946
         }
       ],
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/products/pexels-dominika-roseclayPRIRODNOcopy.jpg?v=1681481746",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/pexels-dominika-roseclayPRIRODNOcopy.jpgcopy.png?v=1775564556",
       "variants": [
         {
           "id": "46488213029212",
           "title": "5%",
           "available": true,
-          "priceEur": 35,
-          "compareAtPriceEur": null,
+          "priceEur": 24.9,
+          "compareAtPriceEur": 35,
           "sku": "0745178938273",
           "grams": 2,
           "option1": "5%",
@@ -684,8 +617,8 @@
           "id": "46488213061980",
           "title": "10%",
           "available": true,
-          "priceEur": 45,
-          "compareAtPriceEur": null,
+          "priceEur": 34.9,
+          "compareAtPriceEur": 45,
           "sku": "0745178938280",
           "grams": 2,
           "option1": "10%",
@@ -696,8 +629,8 @@
           "id": "46488213094748",
           "title": "15%",
           "available": true,
-          "priceEur": 55,
-          "compareAtPriceEur": null,
+          "priceEur": 44.9,
+          "compareAtPriceEur": 55,
           "sku": "0745178938297",
           "grams": 2,
           "option1": "15%",
@@ -708,8 +641,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 35,
-        "max": 55
+        "min": 24.9,
+        "max": 44.9
       },
       "categories": [
         "CBD Ulje"
@@ -739,8 +672,8 @@
           "id": "46488141168988",
           "title": "5%",
           "available": true,
-          "priceEur": 35,
-          "compareAtPriceEur": null,
+          "priceEur": 24.9,
+          "compareAtPriceEur": 35,
           "sku": "0745178626415",
           "grams": 2,
           "option1": "5%",
@@ -751,8 +684,8 @@
           "id": "46488141201756",
           "title": "10%",
           "available": true,
-          "priceEur": 45,
-          "compareAtPriceEur": null,
+          "priceEur": 34.9,
+          "compareAtPriceEur": 45,
           "sku": "0745178626422",
           "grams": 2,
           "option1": "10%",
@@ -763,8 +696,8 @@
           "id": "46488141234524",
           "title": "15%",
           "available": true,
-          "priceEur": 55,
-          "compareAtPriceEur": null,
+          "priceEur": 44.9,
+          "compareAtPriceEur": 55,
           "sku": "0745178626439",
           "grams": 2,
           "option1": "15%",
@@ -775,13 +708,11 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 35,
-        "max": 55
+        "min": 24.9,
+        "max": 44.9
       },
-      "categories": [
-        "CBD Ulje"
-      ],
-      "primaryCategory": "CBD Ulje"
+      "categories": [],
+      "primaryCategory": null
     },
     {
       "id": "cbd-cbg",
@@ -816,8 +747,8 @@
           "id": "42484551090418",
           "title": "2g",
           "available": true,
-          "priceEur": 10,
-          "compareAtPriceEur": null,
+          "priceEur": 4.9,
+          "compareAtPriceEur": 10,
           "sku": "0745178626347",
           "grams": 2,
           "option1": "2g",
@@ -828,8 +759,8 @@
           "id": "42484551123186",
           "title": "6g",
           "available": true,
-          "priceEur": 30,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 30,
           "sku": "0745178626354",
           "grams": 6,
           "option1": "6g",
@@ -840,68 +771,13 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 10,
-        "max": 30
+        "min": 4.9,
+        "max": 14.9
       },
       "categories": [
         "Cvjetovi"
       ],
       "primaryCategory": "Cvjetovi"
-    },
-    {
-      "id": "cupidov-set",
-      "shopifyId": "8739219243356",
-      "title": "Cupidov set",
-      "handle": "cupidov-set",
-      "url": "https://balkanpharm.hr/products/cupidov-set",
-      "vendor": "BalkanPharm",
-      "productType": "",
-      "tags": [],
-      "descriptionText": "Uzdignite svoje izraze ljubavi s našim izvrsnim setom proizvoda koji je dizajniran da osvoji srca i stvori nezaboravne trenutke. Svaki ručno odabrani predmet u ovoj kolekciji utjelovljuje bit romantike i sofisticiranosti, što ga čini savršenim darom za vašu posebnu osobu.\nMali set:\nTopla crvena rapsodija 50g\n2x G.B. N- Joy frulica\nRed boobs 2g\nVeliki set:\nTopla crvena rapsodija 100g\n4x G.B. N-Joy frulica\nRed boobs 6g\nSvaki predmet u ovoj kolekciji pažljivo je odabran kako bi prenio dubinu vaše ljubavi.\nNeka ljubav procvjeta uz našu očaravajuću kolekciju!",
-      "images": [
-        {
-          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/cupidovset.png?v=1707130796",
-          "width": 940,
-          "height": 788
-        }
-      ],
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/cupidovset.png?v=1707130796",
-      "variants": [
-        {
-          "id": "47621032804700",
-          "title": "Mali",
-          "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
-          "sku": "",
-          "grams": 0,
-          "option1": "Mali",
-          "option2": null,
-          "option3": null
-        },
-        {
-          "id": "47621032837468",
-          "title": "Veliki",
-          "available": true,
-          "priceEur": 55,
-          "compareAtPriceEur": null,
-          "sku": "",
-          "grams": 0,
-          "option1": "Veliki",
-          "option2": null,
-          "option3": null
-        }
-      ],
-      "available": true,
-      "price": {
-        "currency": "EUR",
-        "min": 25,
-        "max": 55
-      },
-      "categories": [
-        "Setovi"
-      ],
-      "primaryCategory": "Setovi"
     },
     {
       "id": "caj-carobna-banana",
@@ -936,8 +812,8 @@
           "id": "44425369977074",
           "title": "50",
           "available": true,
-          "priceEur": 15,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 15,
           "sku": "0745178626392",
           "grams": 50,
           "option1": "50",
@@ -948,8 +824,8 @@
           "id": "44425366700274",
           "title": "100g",
           "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 19.9,
+          "compareAtPriceEur": 25,
           "sku": "0725765722652",
           "grams": 100,
           "option1": "100g",
@@ -960,8 +836,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 15,
-        "max": 25
+        "min": 10.9,
+        "max": 19.9
       },
       "categories": [
         "Čajevi"
@@ -1001,8 +877,8 @@
           "id": "42484547715314",
           "title": "2g",
           "available": true,
-          "priceEur": 10,
-          "compareAtPriceEur": null,
+          "priceEur": 4.9,
+          "compareAtPriceEur": 10,
           "sku": "0745178626309",
           "grams": 2,
           "option1": "2g",
@@ -1013,8 +889,8 @@
           "id": "42484547748082",
           "title": "6g",
           "available": true,
-          "priceEur": 30,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 30,
           "sku": "0745178626316",
           "grams": 6,
           "option1": "6g",
@@ -1025,8 +901,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 10,
-        "max": 30
+        "min": 4.9,
+        "max": 14.9
       },
       "categories": [
         "Cvjetovi"
@@ -1104,8 +980,8 @@
           "id": "42484524810482",
           "title": "5g",
           "available": true,
-          "priceEur": 20,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 20,
           "sku": "0725765362803",
           "grams": 5,
           "option1": "5g",
@@ -1116,8 +992,8 @@
           "id": "42484524843250",
           "title": "10g",
           "available": true,
-          "priceEur": 40,
-          "compareAtPriceEur": null,
+          "priceEur": 29.9,
+          "compareAtPriceEur": 40,
           "sku": "0725765362810",
           "grams": 10,
           "option1": "10g",
@@ -1128,8 +1004,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 20,
-        "max": 40
+        "min": 14.9,
+        "max": 29.9
       },
       "categories": [
         "Cvjetovi"
@@ -1137,32 +1013,32 @@
       "primaryCategory": "Cvjetovi"
     },
     {
-      "id": "n-joy-1g",
+      "id": "n-joy-4g",
       "shopifyId": "7879781646578",
-      "title": "G.B.  N - Joy - 1g",
-      "handle": "n-joy-1g",
-      "url": "https://balkanpharm.hr/products/n-joy-1g",
+      "title": "G.B.  N - Joy - 4g",
+      "handle": "n-joy-4g",
+      "url": "https://balkanpharm.hr/products/n-joy-4g",
       "vendor": "BalkanPharm",
       "productType": "cbd flower",
       "tags": [],
       "descriptionText": "Specifikacija:  THC 0,1 - 0,3%\nCBD 10-26%\nCBG 5-20%\nG.B.  N-joy je više od obične CBD frulice - to je iskustvo.  Dizajniran za one koji traže ravnotežu i opuštanje u svakodnevnom životu,  N-joy je savršen način za opuštanje nakon dugog dana. Sa svojim glatkim i aromatičnim dimom, ova frulica će vam sigurno izmamiti osmijeh na lice i  osjećaj smirenosti u vašem umu.  Napravljen od visokokvalitetnog industrijskog kanabisa koji sadrži 0,2% THC-a i pažljivo uravnoteženu količinu CBD-a, N-joy je savršen suputnik za one koji žele uživati u blagodatima kanabisa bez psihoaktivnih učinaka.\nSastojci: dijelovi   konoplje (cannabis sativa L. - sa zajedničke liste EU)\nMade in EU\nSuvenir za osobno istraživanje, nije za konzumaciju",
       "images": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/N-joy.png?v=1705180655",
-          "width": 940,
-          "height": 788
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice_7fe58728-18f0-4cac-9e51-1204bc17c64f.png?v=1777022399",
+          "width": 1600,
+          "height": 1600
         }
       ],
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/N-joy.png?v=1705180655",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice_7fe58728-18f0-4cac-9e51-1204bc17c64f.png?v=1777022399",
       "variants": [
         {
           "id": "44366875754738",
           "title": "Default Title",
           "available": true,
-          "priceEur": 6,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 6,
           "sku": "0725765722690",
-          "grams": 1,
+          "grams": 4,
           "option1": "Default Title",
           "option2": null,
           "option3": null
@@ -1171,8 +1047,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 6,
-        "max": 6
+        "min": 10.9,
+        "max": 10.9
       },
       "categories": [
         "Frulice"
@@ -1182,7 +1058,7 @@
     {
       "id": "g-b-d-boss",
       "shopifyId": "7888097476850",
-      "title": "G.B. D Boss",
+      "title": "G.B. D Boss 4g",
       "handle": "g-b-d-boss",
       "url": "https://balkanpharm.hr/products/g-b-d-boss",
       "vendor": "BalkanPharm",
@@ -1191,21 +1067,21 @@
       "descriptionText": "Specifikacija:  THC 0,1 - 0,3%\nCBD 10-15%\nCBG 15-20%\nHASH 15%\nG.B. BOSS je kralj CBD spojeva. Sa svojom snažnom i aromatičnom mješavinom industrijskog kanabisa i pravom količinom CBD-a, ova frulica će sigurno zadovoljiti i najprobirljivijeg poznavatelja kanabisa. Bilo da se želite  opustiti nakon dugog dana  ili samo želite uživati u  visokokvalitetnom kanabisu. G.B. BOSS je savršen izbor. Zato se udobno smjestite i  pustite Boss-a da se pobrine za ostalo.\nSastojci: dijelovi   konoplje (cannabis sativa L. - sazajedničke liste EU)\nMade in EU\nSuvenir za osobno istraživanje, nije za konzumaciju",
       "images": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/g.b.d.boss.png?v=1705183338",
-          "width": 940,
-          "height": 788
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice_7fe58728-18f0-4cac-9e51-1204bc17c64f.png?v=1777022399",
+          "width": 1600,
+          "height": 1600
         }
       ],
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/g.b.d.boss.png?v=1705183338",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice_7fe58728-18f0-4cac-9e51-1204bc17c64f.png?v=1777022399",
       "variants": [
         {
           "id": "44409489490162",
           "title": "Default Title",
           "available": true,
-          "priceEur": 6,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 6,
           "sku": "0725765722669",
-          "grams": 1,
+          "grams": 4,
           "option1": "Default Title",
           "option2": null,
           "option3": null
@@ -1214,8 +1090,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 6,
-        "max": 6
+        "min": 10.9,
+        "max": 10.9
       },
       "categories": [
         "Frulice"
@@ -1225,7 +1101,7 @@
     {
       "id": "g-b-sos",
       "shopifyId": "7891456458994",
-      "title": "G.B. SOS",
+      "title": "G.B. SOS 4g",
       "handle": "g-b-sos",
       "url": "https://balkanpharm.hr/products/g-b-sos",
       "vendor": "BalkanPharm",
@@ -1234,21 +1110,21 @@
       "descriptionText": "Specifikacija:  THC 0,1 - 0,3%\nCBD 10-15%\nCBG 15-20%\nHASH 5%\nG.B. SOS je spoj za hitne slučajeve koji vam je potreban  kada život postane previše stresan.  Napravljen od visokokvalitetnog industrijskog kanabisa i prave količine CBD-a, ova frulica je dizajnirana da vam pomogne da se opustite kada vam je to najpotrebnije. Sa svojim glatkim i blagim dimom, G.B. SOS je  savršen način da se odmorite od kaosa svakodnevnog života i pronađete svoje središte.\nSastojci: dijelovi   konoplje (cannabis sativa L. - sa zajedničke liste EU)\nČuvati izvan dohvata djece\nZabranjeno za osobe mlađe od 18 godina\nMade in: EU\nSuvenir za osobno istraživanje, nije za konzumaciju",
       "images": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/sos.png?v=1705180735",
-          "width": 940,
-          "height": 788
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice_7fe58728-18f0-4cac-9e51-1204bc17c64f.png?v=1777022399",
+          "width": 1600,
+          "height": 1600
         }
       ],
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/sos.png?v=1705180735",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice_7fe58728-18f0-4cac-9e51-1204bc17c64f.png?v=1777022399",
       "variants": [
         {
           "id": "44425742975218",
           "title": "Default Title",
           "available": true,
-          "priceEur": 6,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 6,
           "sku": "0764460713534",
-          "grams": 1,
+          "grams": 4,
           "option1": "Default Title",
           "option2": null,
           "option3": null
@@ -1257,8 +1133,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 6,
-        "max": 6
+        "min": 10.9,
+        "max": 10.9
       },
       "categories": [
         "Frulice"
@@ -1268,7 +1144,7 @@
     {
       "id": "g-b-sour-d",
       "shopifyId": "7888105668850",
-      "title": "G.B. Sour D",
+      "title": "G.B. Sour D 4g",
       "handle": "g-b-sour-d",
       "url": "https://balkanpharm.hr/products/g-b-sour-d",
       "vendor": "BalkanPharm",
@@ -1277,21 +1153,21 @@
       "descriptionText": "Specifikacija:  THC 0,1 - 0,3%\nCBD 10-18%\nCBG 10-18%\nHASH 10%\nB.G. SOUR D  je savršen izbor za one koji trebaju  malo više energije i fokusa  u svom danu. Napravljen od pomno odabrane mješavine industrijskog kanabisa i prave količine CBD-a, ova frulica, osmišljena je da vam pruži  poticaj bez treme ili pada kofeina . Sa svojim pikantnim i citrusnim okusom, B.G. SOUR D je savršen način da započnete dan ili date snagu kroz užurbano poslijepodne.\nSastojci: dijelovi   konoplje (cannabis sativa L. - sazajedničke liste EU)\nMade in EU\nSuvenir za osobno istraživanje, nije za konzumaciju",
       "images": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/g.b.sourd.png?v=1705183364",
-          "width": 940,
-          "height": 788
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice_7fe58728-18f0-4cac-9e51-1204bc17c64f.png?v=1777022399",
+          "width": 1600,
+          "height": 1600
         }
       ],
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/g.b.sourd.png?v=1705183364",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice_7fe58728-18f0-4cac-9e51-1204bc17c64f.png?v=1777022399",
       "variants": [
         {
           "id": "44409512165618",
           "title": "Default Title",
           "available": true,
-          "priceEur": 6,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 6,
           "sku": "0725765722676",
-          "grams": 1,
+          "grams": 4,
           "option1": "Default Title",
           "option2": null,
           "option3": null
@@ -1300,8 +1176,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 6,
-        "max": 6
+        "min": 10.9,
+        "max": 10.9
       },
       "categories": [
         "Frulice"
@@ -1311,7 +1187,7 @@
     {
       "id": "zen-quartet-set",
       "shopifyId": "14945365164380",
-      "title": "G.B. Zen Quartet SET!",
+      "title": "G.B. Zen 4g",
       "handle": "zen-quartet-set",
       "url": "https://balkanpharm.hr/products/zen-quartet-set",
       "vendor": "BalkanPharm",
@@ -1320,19 +1196,19 @@
       "descriptionText": "\"Prepusti se trenutku uz naš ekskluzivni  CBD set od četiri frulice , pažljivo kreiran da donese ravnotežu, opuštanje i dozu svakodnevnog uživanja. Svaka frulica pruža jedinstven doživljaj, idealan za različite trenutke dana – bilo da započinješ jutro sa mirom, puniš energiju tokom dana ili se opuštaš pred spavanje. Udahni smirenost, izdahni stres i neka  tvoj dan teče u savršenoj harmoniji .\"",
       "images": [
         {
-          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice.png?v=1743497921",
-          "width": 863,
-          "height": 906
+          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice_b18b8454-694b-4aa4-8bf5-67d9667139dc.png?v=1777022198",
+          "width": 1600,
+          "height": 1600
         }
       ],
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice.png?v=1743497921",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/frulice_b18b8454-694b-4aa4-8bf5-67d9667139dc.png?v=1777022198",
       "variants": [
         {
           "id": "54246406619484",
           "title": "Default Title",
           "available": true,
-          "priceEur": 18,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 18,
           "sku": "",
           "grams": 0,
           "option1": "Default Title",
@@ -1343,15 +1219,14 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 18,
-        "max": 18
+        "min": 10.9,
+        "max": 10.9
       },
       "categories": [
-        "Cvjetovi",
         "Frulice",
         "Setovi"
       ],
-      "primaryCategory": "Cvjetovi"
+      "primaryCategory": "Frulice"
     },
     {
       "id": "green-obsession-2g",
@@ -1381,8 +1256,8 @@
           "id": "42935942447346",
           "title": "Default Title",
           "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 12.9,
+          "compareAtPriceEur": 19.9,
           "sku": "0725765362872",
           "grams": 2,
           "option1": "Default Title",
@@ -1393,13 +1268,11 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 25,
-        "max": 25
+        "min": 12.9,
+        "max": 12.9
       },
-      "categories": [
-        "Moonrocks"
-      ],
-      "primaryCategory": "Moonrocks"
+      "categories": [],
+      "primaryCategory": null
     },
     {
       "id": "holly-shit-2-g",
@@ -1470,8 +1343,8 @@
           "id": "42935944610034",
           "title": "Default Title",
           "available": false,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 25,
           "sku": "0725765362865",
           "grams": 2,
           "option1": "Default Title",
@@ -1482,13 +1355,11 @@
       "available": false,
       "price": {
         "currency": "EUR",
-        "min": 25,
-        "max": 25
+        "min": 14.9,
+        "max": 14.9
       },
-      "categories": [
-        "Moonrocks"
-      ],
-      "primaryCategory": "Moonrocks"
+      "categories": [],
+      "primaryCategory": null
     },
     {
       "id": "kopika-samo-kopika-vocni-caj-50g",
@@ -1513,8 +1384,8 @@
           "id": "53838572880220",
           "title": "Default Title",
           "available": true,
-          "priceEur": 20,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 15,
           "sku": "",
           "grams": 50,
           "option1": "Default Title",
@@ -1525,8 +1396,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 20,
-        "max": 20
+        "min": 10.9,
+        "max": 10.9
       },
       "categories": [
         "Čajevi"
@@ -1566,8 +1437,8 @@
           "id": "42484494729458",
           "title": "2g",
           "available": true,
-          "priceEur": 10,
-          "compareAtPriceEur": null,
+          "priceEur": 4.9,
+          "compareAtPriceEur": 10,
           "sku": "0764460713480",
           "grams": 2,
           "option1": "2g",
@@ -1578,8 +1449,8 @@
           "id": "42484494762226",
           "title": "6g",
           "available": true,
-          "priceEur": 30,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 30,
           "sku": "0764460713497",
           "grams": 6,
           "option1": "6g",
@@ -1590,13 +1461,11 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 10,
-        "max": 30
+        "min": 4.9,
+        "max": 14.9
       },
-      "categories": [
-        "Cvjetovi"
-      ],
-      "primaryCategory": "Cvjetovi"
+      "categories": [],
+      "primaryCategory": null
     },
     {
       "id": "mix-25g",
@@ -1621,8 +1490,8 @@
           "id": "56236982370652",
           "title": "Default Title",
           "available": true,
-          "priceEur": 31.25,
-          "compareAtPriceEur": null,
+          "priceEur": 24.9,
+          "compareAtPriceEur": 31.5,
           "sku": null,
           "grams": 25,
           "option1": "Default Title",
@@ -1633,8 +1502,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 31.25,
-        "max": 31.25
+        "min": 24.9,
+        "max": 24.9
       },
       "categories": [],
       "primaryCategory": null
@@ -1662,8 +1531,8 @@
           "id": "56237140705628",
           "title": "Default Title",
           "available": true,
-          "priceEur": 62.5,
-          "compareAtPriceEur": null,
+          "priceEur": 52.9,
+          "compareAtPriceEur": 62.5,
           "sku": null,
           "grams": 0,
           "option1": "Default Title",
@@ -1674,8 +1543,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 62.5,
-        "max": 62.5
+        "min": 52.9,
+        "max": 52.9
       },
       "categories": [],
       "primaryCategory": null
@@ -1713,8 +1582,8 @@
           "id": "44425371910386",
           "title": "50",
           "available": true,
-          "priceEur": 15,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 15,
           "sku": "0745178626361",
           "grams": 50,
           "option1": "50",
@@ -1725,8 +1594,8 @@
           "id": "44425370304754",
           "title": "100",
           "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 19.9,
+          "compareAtPriceEur": 25,
           "sku": "0725765722645",
           "grams": 100,
           "option1": "100",
@@ -1737,8 +1606,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 15,
-        "max": 25
+        "min": 10.9,
+        "max": 19.9
       },
       "categories": [
         "Čajevi"
@@ -1768,8 +1637,8 @@
           "id": "53838561182044",
           "title": "Default Title",
           "available": true,
-          "priceEur": 20,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 15,
           "sku": "",
           "grams": 50,
           "option1": "Default Title",
@@ -1780,68 +1649,13 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 20,
-        "max": 20
+        "min": 10.9,
+        "max": 10.9
       },
       "categories": [
         "Čajevi"
       ],
       "primaryCategory": "Čajevi"
-    },
-    {
-      "id": "mystery-set",
-      "shopifyId": "8757176893788",
-      "title": "Mystery set",
-      "handle": "mystery-set",
-      "url": "https://balkanpharm.hr/products/mystery-set",
-      "vendor": "BalkanPharm",
-      "productType": "",
-      "tags": [],
-      "descriptionText": "Upustite se u avanturu kao nijedna druga s našim ekskluzivnim Mystery Setom!\nZaronite u nepoznato i otkrijte riznicu iznenađenja koja čekaju samo na vas.\nŠto je unutra? To je dio magije!\nMali set:\n1x cvijet 2g\n2x frulice\n1x čaj 50g\nVeliki set:\n1x cvijet 6g\n4x frulice\n1x čaj 100g\nSvaki je predmet pažljivo odabran kako bi potaknuo radost i znatiželju.\nBilo da se častite ili tražite savršen dar, naš Mystery Set obećava nezaboravno iskustvo sa svakim otkrivanjem.",
-      "images": [
-        {
-          "src": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/mysteryset_8.png?v=1708102996",
-          "width": 940,
-          "height": 788
-        }
-      ],
-      "imageUrl": "https://cdn.shopify.com/s/files/1/0631/0448/3570/files/mysteryset_8.png?v=1708102996",
-      "variants": [
-        {
-          "id": "47674201801052",
-          "title": "Mali",
-          "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
-          "sku": "",
-          "grams": 0,
-          "option1": "Mali",
-          "option2": null,
-          "option3": null
-        },
-        {
-          "id": "47674201833820",
-          "title": "Velki",
-          "available": true,
-          "priceEur": 55,
-          "compareAtPriceEur": null,
-          "sku": "",
-          "grams": 0,
-          "option1": "Velki",
-          "option2": null,
-          "option3": null
-        }
-      ],
-      "available": true,
-      "price": {
-        "currency": "EUR",
-        "min": 25,
-        "max": 55
-      },
-      "categories": [
-        "Setovi"
-      ],
-      "primaryCategory": "Setovi"
     },
     {
       "id": "artemisia-annua",
@@ -1869,7 +1683,7 @@
           "title": "Default Title",
           "available": true,
           "priceEur": 60,
-          "compareAtPriceEur": null,
+          "compareAtPriceEur": 60,
           "sku": "0764460713435",
           "grams": 0,
           "option1": "Default Title",
@@ -1883,10 +1697,8 @@
         "min": 60,
         "max": 60
       },
-      "categories": [
-        "Ostalo"
-      ],
-      "primaryCategory": "Ostalo"
+      "categories": [],
+      "primaryCategory": null
     },
     {
       "id": "pink-bitch-2g",
@@ -1916,8 +1728,8 @@
           "id": "42935946313970",
           "title": "Default Title",
           "available": false,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 25,
           "sku": "0725765362858",
           "grams": 2,
           "option1": "Default Title",
@@ -1928,13 +1740,11 @@
       "available": false,
       "price": {
         "currency": "EUR",
-        "min": 25,
-        "max": 25
+        "min": 14.9,
+        "max": 14.9
       },
-      "categories": [
-        "Moonrocks"
-      ],
-      "primaryCategory": "Moonrocks"
+      "categories": [],
+      "primaryCategory": null
     },
     {
       "id": "premium-cbd-pasta",
@@ -1959,8 +1769,8 @@
           "id": "53449589162332",
           "title": "Default Title",
           "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 25,
           "sku": "",
           "grams": 0,
           "option1": "Default Title",
@@ -1971,8 +1781,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 25,
-        "max": 25
+        "min": 14.9,
+        "max": 14.9
       },
       "categories": [
         "CBD Ulje"
@@ -2007,8 +1817,8 @@
           "id": "44425373548786",
           "title": "50",
           "available": true,
-          "priceEur": 15,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 15,
           "sku": "0745178626378",
           "grams": 50,
           "option1": "50",
@@ -2019,8 +1829,8 @@
           "id": "44425373188338",
           "title": "100",
           "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 19.9,
+          "compareAtPriceEur": 25,
           "sku": "0725765722614",
           "grams": 100,
           "option1": "100",
@@ -2031,8 +1841,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 15,
-        "max": 25
+        "min": 10.9,
+        "max": 19.9
       },
       "categories": [
         "Čajevi"
@@ -2072,8 +1882,8 @@
           "id": "42484512260338",
           "title": "2g",
           "available": true,
-          "priceEur": 15,
-          "compareAtPriceEur": null,
+          "priceEur": 9.9,
+          "compareAtPriceEur": 15,
           "sku": "0745178938365",
           "grams": 2,
           "option1": "2g",
@@ -2084,8 +1894,8 @@
           "id": "42484512325874",
           "title": "6g",
           "available": true,
-          "priceEur": 45,
-          "compareAtPriceEur": null,
+          "priceEur": 29.9,
+          "compareAtPriceEur": 45,
           "sku": "0764460713398",
           "grams": 6,
           "option1": "6g",
@@ -2096,8 +1906,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 15,
-        "max": 45
+        "min": 9.9,
+        "max": 29.9
       },
       "categories": [
         "Cvjetovi"
@@ -2137,8 +1947,8 @@
           "id": "44368504520946",
           "title": "2g",
           "available": true,
-          "priceEur": 10,
-          "compareAtPriceEur": null,
+          "priceEur": 4.9,
+          "compareAtPriceEur": 10,
           "sku": "0764460713503",
           "grams": 2,
           "option1": "2g",
@@ -2149,8 +1959,8 @@
           "id": "44368504553714",
           "title": "6g",
           "available": true,
-          "priceEur": 30,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 30,
           "sku": "0764460713510",
           "grams": 2,
           "option1": "6g",
@@ -2161,8 +1971,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 10,
-        "max": 30
+        "min": 4.9,
+        "max": 14.9
       },
       "categories": [
         "Cvjetovi"
@@ -2202,8 +2012,8 @@
           "id": "42484529627378",
           "title": "5g",
           "available": true,
-          "priceEur": 20,
-          "compareAtPriceEur": 0,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 20,
           "sku": "0725765362827",
           "grams": 5,
           "option1": "5g",
@@ -2214,8 +2024,8 @@
           "id": "42484529660146",
           "title": "10g",
           "available": true,
-          "priceEur": 40,
-          "compareAtPriceEur": null,
+          "priceEur": 29.9,
+          "compareAtPriceEur": 40,
           "sku": "0725765362834",
           "grams": 10,
           "option1": "10g",
@@ -2226,8 +2036,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 20,
-        "max": 40
+        "min": 14.9,
+        "max": 29.9
       },
       "categories": [
         "Cvjetovi"
@@ -2267,8 +2077,8 @@
           "id": "44425374367986",
           "title": "50",
           "available": true,
-          "priceEur": 15,
-          "compareAtPriceEur": null,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 15,
           "sku": "0745178626408",
           "grams": 50,
           "option1": "50",
@@ -2279,8 +2089,8 @@
           "id": "44425374007538",
           "title": "100",
           "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": null,
+          "priceEur": 19.9,
+          "compareAtPriceEur": 25,
           "sku": "0725765362896",
           "grams": 100,
           "option1": "100",
@@ -2291,8 +2101,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 15,
-        "max": 25
+        "min": 10.9,
+        "max": 19.9
       },
       "categories": [
         "Čajevi"
@@ -2332,8 +2142,8 @@
           "id": "42484429422834",
           "title": "2g",
           "available": true,
-          "priceEur": 20,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 20,
           "sku": "0764460713404",
           "grams": 2,
           "option1": "2g",
@@ -2344,8 +2154,8 @@
           "id": "42484429455602",
           "title": "6g",
           "available": true,
-          "priceEur": 60,
-          "compareAtPriceEur": 0,
+          "priceEur": 44.9,
+          "compareAtPriceEur": 60,
           "sku": "0764460713411",
           "grams": 6,
           "option1": "6g",
@@ -2356,8 +2166,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 20,
-        "max": 60
+        "min": 14.9,
+        "max": 44.9
       },
       "categories": [
         "Cvjetovi"
@@ -2397,8 +2207,8 @@
           "id": "44425374990578",
           "title": "50",
           "available": true,
-          "priceEur": 15,
-          "compareAtPriceEur": 0,
+          "priceEur": 10.9,
+          "compareAtPriceEur": 15,
           "sku": "0745178626385",
           "grams": 50,
           "option1": "50",
@@ -2409,8 +2219,8 @@
           "id": "44425374499058",
           "title": "100",
           "available": true,
-          "priceEur": 25,
-          "compareAtPriceEur": 0,
+          "priceEur": 19.9,
+          "compareAtPriceEur": 25,
           "sku": "0725765722607",
           "grams": 100,
           "option1": "100",
@@ -2421,8 +2231,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 15,
-        "max": 25
+        "min": 10.9,
+        "max": 19.9
       },
       "categories": [
         "Čajevi"
@@ -2462,8 +2272,8 @@
           "id": "42484547092722",
           "title": "2g",
           "available": true,
-          "priceEur": 10,
-          "compareAtPriceEur": null,
+          "priceEur": 4.9,
+          "compareAtPriceEur": 10,
           "sku": "0745178626323",
           "grams": 2,
           "option1": "2g",
@@ -2474,8 +2284,8 @@
           "id": "42484547125490",
           "title": "6g",
           "available": true,
-          "priceEur": 30,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 30,
           "sku": "0745178626330",
           "grams": 6,
           "option1": "6g",
@@ -2486,8 +2296,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 10,
-        "max": 30
+        "min": 4.9,
+        "max": 14.9
       },
       "categories": [
         "Cvjetovi"
@@ -2527,8 +2337,8 @@
           "id": "53641634283868",
           "title": "5g",
           "available": true,
-          "priceEur": 20,
-          "compareAtPriceEur": null,
+          "priceEur": 14.9,
+          "compareAtPriceEur": 20,
           "sku": "",
           "grams": 0,
           "option1": "5g",
@@ -2539,8 +2349,8 @@
           "id": "53641634316636",
           "title": "10g",
           "available": true,
-          "priceEur": 40,
-          "compareAtPriceEur": null,
+          "priceEur": 24.9,
+          "compareAtPriceEur": 35,
           "sku": "",
           "grams": 0,
           "option1": "10g",
@@ -2551,8 +2361,8 @@
       "available": true,
       "price": {
         "currency": "EUR",
-        "min": 20,
-        "max": 40
+        "min": 14.9,
+        "max": 24.9
       },
       "categories": [
         "Cvjetovi"
@@ -2561,8 +2371,8 @@
     }
   ],
   "stats": {
-    "products": 46,
+    "products": 43,
     "categories": 8,
-    "elapsedMs": 8053
+    "elapsedMs": 8882
   }
 }
