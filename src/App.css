@@ -924,16 +924,43 @@
   padding: 1rem;
 }
 
+/* Jutro — jutarnje nebo, prvi zraci sunca */
 .bp-tea-section-jutro {
-  background: linear-gradient(180deg, rgba(254, 240, 138, 0.32) 0%, rgba(254, 252, 232, 0.95) 24%, #ffffff 48%);
+  border-color: rgba(234, 179, 8, 0.28);
+  background:
+    radial-gradient(ellipse 95% 65% at 12% 0%, rgba(255, 220, 140, 0.55), transparent 58%),
+    radial-gradient(ellipse 75% 50% at 88% 15%, rgba(186, 230, 253, 0.45), transparent 52%),
+    linear-gradient(165deg, rgba(254, 249, 195, 0.55) 0%, rgba(255, 255, 255, 0.97) 48%, #ffffff 100%);
+  box-shadow:
+    0 10px 32px rgba(30, 27, 24, 0.065),
+    0 0 0 1px rgba(234, 179, 8, 0.2) inset;
 }
 
+/* Popodne — toplo, dugo poslijepodnevno svjetlo */
 .bp-tea-section-dan {
-  background: linear-gradient(180deg, rgba(253, 186, 116, 0.22) 0%, rgba(255, 247, 237, 0.96) 26%, #ffffff 48%);
+  border-color: rgba(234, 88, 12, 0.22);
+  background:
+    radial-gradient(ellipse 100% 70% at 50% 0%, rgba(251, 146, 60, 0.4), transparent 55%),
+    radial-gradient(ellipse 65% 45% at 0% 90%, rgba(194, 65, 12, 0.14), transparent 50%),
+    radial-gradient(ellipse 55% 40% at 100% 60%, rgba(253, 186, 116, 0.25), transparent 48%),
+    linear-gradient(175deg, rgba(255, 247, 237, 0.98) 0%, rgba(255, 255, 255, 0.95) 55%, #ffffff 100%);
+  box-shadow:
+    0 10px 32px rgba(30, 27, 24, 0.065),
+    0 0 0 1px rgba(234, 88, 12, 0.18) inset;
 }
 
+/* Večer & noć — sumrak, plavi sumrak, duboka noć */
 .bp-tea-section-noc {
-  background: linear-gradient(180deg, rgba(216, 180, 254, 0.22) 0%, rgba(250, 245, 255, 0.96) 26%, #ffffff 48%);
+  border-color: rgba(99, 102, 241, 0.28);
+  background:
+    radial-gradient(ellipse 110% 75% at 50% 0%, rgba(99, 102, 241, 0.22), transparent 52%),
+    radial-gradient(ellipse 80% 55% at 100% 25%, rgba(30, 27, 60, 0.18), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 0% 70%, rgba(15, 23, 42, 0.12), transparent 50%),
+    radial-gradient(ellipse 90% 60% at 30% 100%, rgba(88, 28, 135, 0.12), transparent 48%),
+    linear-gradient(180deg, rgba(30, 41, 59, 0.12) 0%, rgba(76, 29, 149, 0.08) 28%, rgba(250, 245, 255, 0.96) 65%, #ffffff 100%);
+  box-shadow:
+    0 10px 32px rgba(30, 27, 24, 0.07),
+    0 0 0 1px rgba(79, 70, 229, 0.2) inset;
 }
 
 .bp-tea-missing-note {

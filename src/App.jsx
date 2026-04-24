@@ -306,19 +306,19 @@ function App() {
       {
         key: 'jutro',
         title: 'Jutro',
-        subtitle: 'Žuta kolekcija za energičan start dana.',
+        subtitle: 'Jutarnje svjetlo — za energičan početak dana.',
         products: jutro,
       },
       {
         key: 'dan',
-        title: 'Dan',
-        subtitle: 'Narančasta kolekcija za fokus i dobar ritam.',
+        title: 'Popodne',
+        subtitle: 'Toplo popodnevno sunce — fokus i dobar ritam.',
         products: dan,
       },
       {
         key: 'noc',
-        title: 'Noć',
-        subtitle: 'Ljubičasta kolekcija za opuštanje i ritual pred spavanje.',
+        title: 'Večer & noć',
+        subtitle: 'Od sumraka do noći — opuštanje i ritual pred spavanje.',
         products: noc,
       },
     ]
@@ -599,7 +599,7 @@ function App() {
                 <div className="bp-tea-missing-note">
                   Neki čajevi nisu pronađeni u katalogu. Ako želiš, mogu dodati
                   i “Ostali čajevi” sekciju za sve preostale čajeve koji nisu u
-                  Jutro/Dan/Noć.
+                  Jutro/Popodne/Večer & noć.
                 </div>
               )}
             </div>
