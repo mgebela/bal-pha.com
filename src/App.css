@@ -427,26 +427,6 @@
   color: #92400e;
 }
 
-.bp-price-compare-row {
-  display: inline-flex;
-  align-items: baseline;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-
-.bp-price-current {
-  font-size: 1.65rem;
-  font-weight: 800;
-  color: #15803d;
-  letter-spacing: -0.02em;
-}
-
-.bp-price-was {
-  font-size: 1rem;
-  color: #a8a29e;
-  font-weight: 500;
-}
-
 .bp-hero-cta-row {
   display: flex;
   flex-wrap: wrap;
@@ -691,83 +671,6 @@
   color: #7c2d12;
 }
 
-.bp-upsell-duo {
-  margin: 1.35rem 0 1.5rem;
-  border-radius: 1.35rem;
-  border: 1px solid rgba(167, 139, 250, 0.18);
-  background: linear-gradient(115deg, rgba(255, 245, 249, 0.65), rgba(250, 245, 255, 0.75), rgba(255, 255, 255, 0.92));
-  overflow: hidden;
-  box-shadow:
-    0 14px 44px rgba(30, 27, 24, 0.07),
-    0 0 0 1px rgba(255, 255, 255, 0.55) inset;
-}
-
-.bp-upsell-duo--in-tea-catalog {
-  margin: 0;
-}
-
-.bp-upsell-duo-inner {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-@media (min-width: 800px) {
-  .bp-upsell-duo-inner {
-    flex-direction: row;
-    align-items: stretch;
-  }
-
-  .bp-upsell-duo-copy {
-    flex: 1;
-    padding: 1.35rem 1.25rem;
-  }
-
-  .bp-upsell-duo-media {
-    flex: 0 0 42%;
-    min-height: 220px;
-  }
-
-  .bp-upsell-duo-media img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
-}
-
-.bp-upsell-duo-copy {
-  padding: 1.35rem 1.25rem;
-}
-
-.bp-upsell-tagline {
-  font-weight: 600;
-  color: #15803d;
-  margin: 0.25rem 0 0.5rem;
-}
-
-.bp-upsell-duo-copy > p:last-of-type {
-  font-size: 0.92rem;
-  color: #57534e;
-  line-height: 1.5;
-  margin: 0 0 0.85rem;
-}
-
-.bp-upsell-price {
-  margin-bottom: 0.85rem;
-}
-
-.bp-upsell-duo-media {
-  min-height: 200px;
-  background: linear-gradient(160deg, #fef3c7, #e9d5ff, #cffafe);
-}
-
-.bp-upsell-duo-media img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-  display: block;
-}
-
 .bp-sticky-mobile {
   display: none;
 }
@@ -844,20 +747,6 @@
     align-items: center;
     justify-content: center;
   }
-}
-
-.bp-featured-eyebrow {
-  display: inline-block;
-  margin: 0 0 0.35rem;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #047857;
-  padding: 0.2rem 0.45rem;
-  border-radius: 0.35rem;
-  background: rgba(209, 250, 229, 0.65);
-  border: 1px solid rgba(52, 211, 153, 0.28);
 }
 
 .bp-products {
