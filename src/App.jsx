@@ -3,6 +3,8 @@ import './App.css'
 import catalog from './assets/balkanpharm-catalog.json'
 import ovajDizeHeroImg from './assets/ovaj-dize-iz-mrtvih.png'
 
+const BALPHA_LOGO_URL = `${import.meta.env.BASE_URL}balpha-logo.png`
+
 const NEWSLETTER_STORAGE_KEY = 'balpha-tea-club-email'
 const SESSION_MAIN_DISMISSED = 'balpha-newsletter-main-dismissed'
 const SESSION_EXIT_SHOWN = 'balpha-newsletter-exit-shown'
@@ -56,72 +58,15 @@ function normalizeText(value) {
     .trim()
 }
 
-function BalphaLogo({ variant = 'green', className = '' }) {
-  const variants = {
-    green: { from: '#42d68f', to: '#7cf3c0' },
-    yellow: { from: '#f5b04a', to: '#fff07b' },
-    orange: { from: '#e24b3d', to: '#f2b24f' },
-    purple: { from: '#6b2cff', to: '#d946ef' },
-  }
-  const v = variants[variant] ?? variants.green
-  const gradId = `balpha-grad-${variant}`
-
+function BalphaLogo({ className = '', loading = 'lazy' }) {
   return (
-    <svg
+    <img
       className={className}
-      viewBox="0 0 1200 240"
-      preserveAspectRatio="xMidYMid meet"
-      role="img"
-      aria-label="balpha CBD ORIGINALS"
-      xmlns="http://www.w3.org/2000/svg"
-      style={{ display: 'block' }}
-    >
-      <defs>
-        <linearGradient id={gradId} x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor={v.from} />
-          <stop offset="1" stopColor={v.to} />
-        </linearGradient>
-      </defs>
-      <rect
-        x="12"
-        y="12"
-        width="1176"
-        height="216"
-        rx="22"
-        fill={`url(#${gradId})`}
-        stroke="rgba(15,23,42,0.85)"
-        strokeWidth="12"
-      />
-      <g transform="translate(56 54)">
-        <path
-          d="M96 0c7 25 7 46 0 70c20-7 36-19 54-40c-2 28-12 49-34 70c24 0 44-7 70-22c-12 23-28 39-56 51c27 12 44 28 56 51c-26-15-46-22-70-22c22 21 32 42 34 70c-18-21-34-33-54-40c7 24 7 45 0 70c-7-25-7-46 0-70c-20 7-36 19-54 40c2-28 12-49 34-70c-24 0-44 7-70 22c12-23 28-39 56-51c-28-12-44-28-56-51c26 15 46 22 70 22c-22-21-32-42-34-70c18 21 34 33 54 40c-7-24-7-45 0-70Z"
-          fill="rgba(255,255,255,0.95)"
-        />
-        <rect x="88" y="126" width="16" height="62" rx="8" fill="rgba(255,255,255,0.95)" />
-      </g>
-      <text
-        x="310"
-        y="135"
-        fill="rgba(255,255,255,0.96)"
-        fontFamily="ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial"
-        fontWeight="800"
-        fontSize="140"
-        letterSpacing="-2"
-      >
-        balpha
-      </text>
-      <text
-        x="435"
-        y="200"
-        fill="rgba(255,255,255,0.9)"
-        fontFamily="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
-        fontWeight="900"
-        fontSize="54"
-        letterSpacing="6"
-      >
-        CBD ORIGINALS
-      </text>
-    </svg>
+      src={BALPHA_LOGO_URL}
+      alt="balpha CBD ORIGINALS"
+      loading={loading}
+      decoding="async"
+    />
   )
 }
 
@@ -362,21 +307,18 @@ function App() {
         key: 'jutro',
         title: 'Jutro',
         subtitle: 'Žuta kolekcija za energičan start dana.',
-        logoVariant: 'yellow',
         products: jutro,
       },
       {
         key: 'dan',
         title: 'Dan',
         subtitle: 'Narančasta kolekcija za fokus i dobar ritam.',
-        logoVariant: 'orange',
         products: dan,
       },
       {
         key: 'noc',
         title: 'Noć',
         subtitle: 'Ljubičasta kolekcija za opuštanje i ritual pred spavanje.',
-        logoVariant: 'purple',
         products: noc,
       },
     ]
@@ -435,13 +377,10 @@ function App() {
     <div className="bp-app bp-tea-app">
       <header className="bp-header">
         <div className="bp-header-main">
-          <div className="bp-logo">
-            <span className="bp-logo-mark">BP</span>
-            <div className="bp-logo-text">
-              <span className="bp-logo-title">BalkanPharm</span>
-                <span className="bp-logo-subtitle">CBD Čajevi (Demo webshop)</span>
-            </div>
-          </div>
+          <a className="bp-logo" href="#products" aria-label="balpha — pregledaj ponudu">
+            <BalphaLogo className="bp-header-logo" loading="eager" />
+            <span className="bp-logo-aux">Demo trgovina</span>
+          </a>
 
           <div className="bp-header-actions">
             <div className="bp-search">
@@ -463,12 +402,6 @@ function App() {
                 <span className="bp-cart-count">{totalItems}</span>
               )}
             </button>
-          </div>
-        </div>
-
-        <div className="bp-header-secondary">
-          <div className="bp-brand-strip">
-            <BalphaLogo variant="green" className="bp-brand-logo" />
           </div>
         </div>
       </header>
@@ -567,10 +500,7 @@ function App() {
                     className={`bp-tea-section bp-tea-section-${group.key}`}
                   >
                     <header className="bp-tea-section-header">
-                      <BalphaLogo
-                        variant={group.logoVariant}
-                        className="bp-tea-section-logo"
-                      />
+                      <BalphaLogo className="bp-tea-section-logo" />
                       <div className="bp-tea-section-headline">
                         <h2>{group.title}</h2>
                         <p>{group.subtitle}</p>
@@ -698,6 +628,7 @@ function App() {
             >
               ×
             </button>
+            <BalphaLogo className="bp-modal-logo" />
             <p className="bp-newsletter-kicker">Tea Club</p>
             <h2 id="bp-newsletter-main-title" className="bp-newsletter-title">
               Uzmi -10% na prvu narudžbu
@@ -762,6 +693,7 @@ function App() {
             >
               ×
             </button>
+            <BalphaLogo className="bp-modal-logo" />
             <h2 id="bp-newsletter-exit-title" className="bp-newsletter-title">
               Čekaj — uzmi -10% prije nego odeš 👀
             </h2>
@@ -822,6 +754,7 @@ function App() {
             >
               ×
             </button>
+            <BalphaLogo className="bp-modal-logo" />
             <p className="bp-welcome-email-meta">
               <span className="bp-welcome-email-label">Predmet</span>
               <span id="bp-welcome-email-subject">
@@ -876,7 +809,10 @@ function App() {
             onClick={(e) => e.stopPropagation()}
           >
             <header className="bp-cart-header">
-              <h2>Košarica</h2>
+              <div className="bp-cart-header-brand">
+                <BalphaLogo className="bp-cart-logo" />
+                <h2>Košarica</h2>
+              </div>
               <button
                 className="bp-icon-button"
                 onClick={() => setIsCartOpen(false)}
@@ -957,7 +893,8 @@ function App() {
       )}
 
       <footer className="bp-footer">
-        <span>© {new Date().getFullYear()} demo prikaz čajeva</span>
+        <BalphaLogo className="bp-footer-logo" />
+        <span className="bp-footer-copy">© {new Date().getFullYear()} · demo trgovina</span>
       </footer>
 
       <div className="bp-sticky-mobile" role="region" aria-label="Brza navigacija">
